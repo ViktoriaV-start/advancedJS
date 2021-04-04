@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		'use strict'
+
+		class Hamburger {
+			constructor(size, filling, flavouring, sauce) {
+			this.size = size;
+			this.filling = filling;
+			this.flavouring = flavouring;
+			this.sauce = sauce;
+			this.price = 0;
+			this.calories = 0;
+			this.textSauce = "";
+			this.textFlavour = "";
+			}
+			getSize() {
+				if (this.size == "small") {
+					this.price += burgerSmall.price;
+					this.calories += burgerSmall.calories;
+					} else {
+					this.price += burgerBig.price;
+					this.calories += burgerBig.calories;
+					}
+			}
+			getFilling() {
+				if (this.filling == "cheese") {
+					this.price += cheeseIn.price;
+					this.calories += cheeseIn.calories;
+				}
+				if (this.filling == "potato") {
+					this.price += potatoIn.price;
+					this.calories += potatoIn.calories;
+				}
+				if (this.filling == "salad") {
+					this.price += saladIn.price;
+					this.calories += saladIn.calories;
+				}
+			}
+			getFlavouring() {
+				if (this.flavouring) {
+					this.price += flavourIn.price;
+					this.calories += flavourIn.calories;
+					this.textFlavour = "с приправой";
+				} else {
+					this.textFlavour = "без приправы";
+				}
+			}
+			getSauce() {
+				if (this.sauce) {
+					this.price += sauceIn.price;
+					this.calories += sauceIn.calories;
+					this.textSauce = "с майонезом";
+				} else {
+					this.textSauce = "без майонеза";
+				}
+			}
+
+			getInfo() {
+				this.getSize();
+				this.getFilling();
+				this.getFlavouring();
+				this.getSauce();
+				return `Ваш заказ: гамбургер - ${this.size}, начинка - ${this.filling}, ${this.textFlavour}, ${this.textSauce}. 
+				Стоимость заказа: ${this.price} руб, калорийность: ${this.calories} ккал.`;
+			}
+		}
+		
+		class Ingr {
+			constructor(price, calories) {
+				this.price = price;
+				this.calories = calories;
+			}
+		}
+
+		let burgerSmall = new Ingr(50, 20);
+		let burgerBig = new Ingr(100, 40);
+		let cheeseIn = new Ingr(10, 20);
+		let saladIn = new Ingr(20, 5);
+		let potatoIn = new Ingr(15, 10);
+		let flavourIn = new Ingr(15, 0);
+		let sauceIn = new Ingr(20, 5);
+
+		let order1 = new Hamburger("small", "cheese", false, true);
+		console.log(order1.getInfo());
+
+		let order2 = new Hamburger("big", "potato", true, true);
+		console.log(order2.getInfo());
+
+		let order3 = new Hamburger("big", "salad", true, false);
+		console.log(order3.getInfo());
+
+	</script>
+	
+</body>
+</html>
