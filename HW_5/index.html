@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div id="app"> <!--отслеживание-->
+        <header class = "header__wrapper">
+    	   <div class="header container">
+                <a href="#" class="header__logo"></a>
+                <form action="#" class="header__search">
+                    <input type="text" class="header__searchField" v-model= "userSearch" v-on:keyup.enter="filter">
+                    <button class="header__searchBtn" type="submit" @click="filter">
+                    <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <button class="header__btnCart" @click="toggleClass" type="button">Корзина ({{ totalQuantity }})</button>
+                <div class="cart">
+
+                    <div class = "cart__item">
+                        <span></span>
+                        <span class="cart__head">Товар</span>
+                        <span class="cart__head">Цена</span>
+                        <span class="cart__head">Количество</span>
+                        <span class="cart__head">Стоимость</span>
+                        <span class="cart__head">Удалить</span>
+                    </div>
+
+                    <div class = "cart__item" v-for="el of itemsInCart" data-id="el.id_product" :key="el.id_product">
+                    <img :src="imgCart + el.id_product" :alt="el.product_name">
+                    
+                    <span data-id="el.id_product" class="cart__title">{{ el.product_name }}</span>
+                    <p data-id="el.id_product" class="cart__price">{{ el.price }} руб</p>
+                    
+                    <div data-id="el.id_product" class="itemInCart__quantity">{{ el.quantity }}</div>
+                    <p data-id="el.id_product" class="cart__price">{{ el.price*el.quantity }} руб</p>
+                    <svg data-id="el.id_product" class="itemInCart__delete" @click="removeProduct(el)" fill="currentColor" height="15" width="15" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path></svg>
+                    </div>
+                    <p>Итого: {{ totalPrice }} руб</p> 
+                </div>
+            </div>
+        </header>
+
+        <main class = "container">
+            <div class="products">
+                <div class="product__item" data-id="el.id_product" v-for="el of products" :key="el.id_product"> <!--id_product, product_name , price - эти названия берутся и подгружаются в верстку из загружаемого файла. products - это наш массив с товарами в JS файле, который получили от fetch -->
+                    <img :src="imgCatalog + el.id_product" :alt="el.product_name">
+                    <div class="desc">
+                        <h3 class="products__title">{{ el.product_name }}</h3>
+                        <p class="products__price">{{ el.price }} руб</p>
+                        <button class="products__buyBtn" @click="addProduct(el)">Купить</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="searchResult__wrap container invsbl">
+                <h3 class="searchResult__text">Результат поиска</h3>
+                <div class="searchResult">
+                    <div class="product__item" data-id="el.id_product" v-for="el of abc" :key="el.id_product">
+                        <img :src="imgCatalog + el.id_product" :alt="el.product_name">
+                        <div class="desc">
+                            <h3 class="products__title">{{ el.product_name }}</h3>
+                            <p class="products__price">{{ el.price }} руб</p>
+                            <button class="products__buyBtn" @click="addProduct(el)">Купить</button>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
