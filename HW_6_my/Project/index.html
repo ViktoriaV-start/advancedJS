@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div id="app"> <!--отслеживание-->
+        <header class = "header__wrapper">
+    	   <div class="header container">
+                <a href="#" class="header__logo"></a>
+                
+                <form action="#" class="header__search" @submit.prevent="filter">
+                    <input type="text" class="header__searchField" v-model= "userSearch">
+                    <button class="header__searchBtn" type="submit">
+                    <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <button class="header__btnCart" @click="toggleClass" type="button">Корзина ({{ totalQuantity }})</button>
+
+
+                <cart :items-in-cart="itemsInCart"
+                :img="imgCart" 
+                :total="totalPrice"
+                @remove="removeProduct"></cart>
+
+            </div>
+        </header>
+
+        <main class = "container">
+
+            <catalog :products="products" :img="imgCatalog" @add-product="addProduct"></catalog>
+            <search></search>
+        </main>
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/CatalogComp.js"></script>
+    <script src="js/CartComp.js"></script>
+    <script src="js/FormComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
