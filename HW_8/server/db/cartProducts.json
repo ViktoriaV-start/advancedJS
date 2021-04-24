@@ -1,0 +1,18 @@
+{
+    "amount": 188024,
+    "countGoods": 2,
+    "contents": [
+      {
+        "id_product": 8,
+        "product_name": "Наушники Beats EP",
+        "price": 8024,
+        "quantity": 1
+      },
+      {
+        "id_product": 1,
+        "product_name": "Apple iMac 16ГБ",
+        "price": 180000,
+        "quantity": 1
+      }
+    ]
+  }
