@@ -1,0 +1,42 @@
+[
+    {
+      "id_product": 1,
+      "product_name": "Apple iMac 16ГБ",
+      "price": 180000
+    },
+    {
+      "id_product": 2,
+      "product_name": "Apple MacBook Pro 8ГБ",
+      "price": 130000
+    },
+    {
+      "id_product": 3,
+      "product_name": "Apple MacBook Air 8ГБ",
+      "price": 100000
+    },
+    {
+      "id_product": 4,
+      "product_name": "Apple iPhone 12",
+      "price": 95000
+    },
+    {
+      "id_product": 5,
+      "product_name": "Клавиатура Magic Keyboard",
+      "price": 12900
+    },
+    {
+      "id_product": 6,
+      "product_name": "Мышь Magic Mouse 2",
+      "price": 7900
+    },
+    {
+      "id_product": 7,
+      "product_name": "Apple Watch SE",
+      "price": 24990
+    },
+    {
+      "id_product": 8,
+      "product_name": "Наушники Beats EP",
+      "price": 8024
+    }
+]

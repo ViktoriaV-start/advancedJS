@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div id="app">
+        <header class = "header__wrapper">
+    	   <div class="header container">
+                <a href="#" class="header__logo"><p class="header__brand">A</p></a>
+                <field ref="field"></field>
+                <button class="header__btnCart" @click="toggleClass" type="button">Корзина ({{ totalQuantity }})</button>
+                <!-- <cart ref="cart"></cart> -->
+            </div>
+        </header>
+
+        <main class = "shop container">
+            <h1 class="shop__h1">Техника Apple</h1>
+            <cart ref="cart"></cart>
+            <catalog ref="catalog"></catalog>
+            <search></search>
+            <error ref="error"></error>
+        </main>
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/CatalogComp.js"></script>
+    <script src="js/CartComp.js"></script>
+    <script src="js/FormComp.js"></script>
+    <script src="js/SearchComp.js"></script>
+    <script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
