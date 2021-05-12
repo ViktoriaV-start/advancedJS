@@ -1,21 +1,21 @@
 [
     {
       "id_product": 8,
-      "product_name": "MANGO PEOPLE Slim Fit Linen Shorts",
+      "product_name": "MANGO PEOPLE Linen Shorts",
       "size": "L",
       "color": "Red",
       "price": 52
     },
     {
       "id_product": 7,
-      "product_name": "MANGO PEOPLE Slim Fit Linen Suit Pants",
+      "product_name": "MANGO PEOPLE Linen Pants",
       "size": "L",
       "color": "Beige",
       "price": 52
     },
     {
       "id_product": 6,
-      "product_name": "MANGO PEOPLE Slim Fit Linen Blazer",
+      "product_name": "MANGO PEOPLE Linen Blazer",
       "size": "XL",
       "color": "Grey",
       "price": 52,
