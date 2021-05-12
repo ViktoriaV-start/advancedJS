@@ -1,58 +1,64 @@
 [
     {
       "id_product": 8,
-      "product_name": "MANGO PEOPLE T-SHIRT",
+      "product_name": "MANGO PEOPLE Slim Fit Linen Shorts",
       "size": "L",
       "color": "Red",
       "price": 52
     },
     {
       "id_product": 7,
-      "product_name": "MANGO PEOPLE T-SHIRT",
+      "product_name": "MANGO PEOPLE Slim Fit Linen Suit Pants",
       "size": "L",
-      "color": "Red",
+      "color": "Beige",
       "price": 52
     },
     {
       "id_product": 6,
-      "product_name": "MANGO PEOPLE T-SHIRT",
+      "product_name": "MANGO PEOPLE Slim Fit Linen Blazer",
       "size": "XL",
-      "color": "Red",
-      "price": 52
+      "color": "Grey",
+      "price": 52,
+      "quantity": 1
     },
     {
       "id_product": 5,
-      "product_name": "MANGO PEOPLE T-SHIRT",
+      "product_name": "MANGO PEOPLE Sleeveless Top",
       "size": "M",
-      "color": "Red",
-      "price": 52
+      "color": "Black and white",
+      "price": 52,
+      "quantity": 1
     },
     {
       "id_product": 4,
-      "product_name": "MANGO PEOPLE T-SHIRT",
+      "product_name": "MANGO PEOPLE Flounce-trimmed Top",
       "size": "M",
-      "color": "Red",
-      "price": 52
+      "color": "Multicolor",
+      "price": 52,
+      "quantity": 1
     },
     {
       "id_product": 3,
-      "product_name": "MANGO PEOPLE T-SHIRT",
-      "size": "S",
-      "color": "Red",
-      "price": 52
+      "product_name": "MANGO PEOPLE Jacket",
+      "size": "L",
+      "color": "Dark blue",
+      "price": 52,
+      "quantity": 1
     },
     {
       "id_product": 2,
-      "product_name": "MANGO PEOPLE T-SHIRT",
-      "size": "L",
+      "product_name": "MANGO PEOPLE Sleeveless Top",
+      "size": "S",
       "color": "Red",
-      "price": 52
+      "price": 52,
+      "quantity": 1
     },
     {
       "id_product": 1,
       "product_name": "MANGO PEOPLE T-SHIRT",
       "size": "XL",
-      "color": "Red",
-      "price": 52
+      "color": "White",
+      "price": 52,
+      "quantity": 1
     }
 ]
