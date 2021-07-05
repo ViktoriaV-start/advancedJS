@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BranD Shopping Cart</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
+     <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">-->
+    <link href="fontawesome/fontawesome/css/all.min.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/95b86417ef.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_page.css">
+    <link rel="stylesheet" href="style_shopping.css">
+</head>
+
+<body>
+        <header class="lineTop">
+        <div class="headerFirst container">
+            <a class="headerFirst__logo" href="index.html"> <img src="img/Logo.png" alt="Logo"> <span class="headerFirst__brand">BRAN<span class="headerFirst__branD">D</span></span>
+            </a>
+            <div class="headerFirst__browseSearch">
+                <div class="headerFirst__browseForm" action="#">
+                    <button class="headerFirst__browse"><span class="headerFirst__textBrowse">Browse</span><i class="headerFirst__arrow fas fa-sort-down"></i></button>
+                </div>
+                <form class="headerFirst__searchForm" action="#">
+                    <input class="headerFirst__search" type="text" placeholder="Search for item..."><button type="submit" class="icon1"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="headerFirst__buttons">
+                <a class="headerFirst__cart" href="shoppingCart.html">
+                    <svg width="32" height="29" viewBox="0 0 32 29">
+                        <path d="M31.899,7.565 L26.493,19.977 C26.296,20.410 25.882,20.686 25.409,20.686 L10.554,20.686 C10.021,20.686 9.548,20.331 9.410,19.819 L4.577,2.364 L1.184,2.364 C0.533,2.364 -0.000,1.832 -0.000,1.182 C-0.000,0.532 0.533,-0.001 1.184,-0.001 L5.464,-0.001 C5.997,-0.001 6.471,0.354 6.609,0.866 L11.442,18.322 L24.620,18.322 L28.999,8.274 L14.401,8.274 C13.750,8.274 13.217,7.742 13.217,7.092 C13.217,6.442 13.750,5.910 14.401,5.910 L30.814,5.910 C31.208,5.910 31.583,6.107 31.800,6.442 C32.017,6.777 32.057,7.190 31.899,7.565 ZM9.429,23.641 C10.909,23.641 12.112,24.843 12.112,26.320 C12.112,27.798 10.909,28.999 9.429,28.999 C7.950,28.999 6.747,27.798 6.747,26.320 C6.747,24.843 7.950,23.641 9.429,23.641 ZM26.020,23.641 C27.500,23.542 28.782,24.665 28.881,26.123 C28.920,26.852 28.703,27.542 28.230,28.073 C27.756,28.625 27.105,28.940 26.395,28.999 C26.336,28.999 26.257,28.999 26.198,28.999 C24.797,28.999 23.633,27.896 23.535,26.498 C23.436,25.040 24.541,23.739 26.020,23.641 Z" /> </svg>
+                </a>
+                <button class="headerFirst__myAccount">My Account</button>
+            </div>
+        </div>
+    </header>
+    <nav class="navigationFirst"> <a href="index.html">HOME</a> <a href="product.html">MEN</a> <a href="#">WOMEN</a> <a href="#">KIDS</a> <a href="#">ACCESORIES</a> <a href="#">FEATURED</a> <a href="#">HOT DEALS</a> </nav>
+    
+    <section class="homePage__filteredWrap container displayNone">
+        <button class="filterClose">x</button>
+        <div class="homePage__filtered"></div>
+    </section>
+
+    <section class="newArrivals">
+        <div class="newArrivals__info container"> 
+            <h2 class="newArrivals__heading">NEW ARRIVALS</h2>
+            <a class="newArrivals__link" href="#"><span class="newArrivals__nav">HOME / </span></a>
+            <a href="#" class="newArrivals__link"><span class="newArrivals__nav">MEN / </span></a>
+            <a href="#" class="newArrivals__link"><span class="newArrivals__nav_colored">NEW ARRIVALS</span></a> 
+        </div>
+    </section>
+
+    <!--КОРЗИНА С ТОВАРОМ-->
+    <main class="container">
+
+        <section class="shoppingCart">
+
+            <div class="shoppingCart__cart">
+    <!--Первый ряд header-->
+                <div class="shoppingCart__line">
+                    <h3 class="shoppingCart__heading">PRODUCT DETAILS</h3>
+                    <span class="shoppingCart__heading shoppingCart__headingName">UNIT PRICE</span>
+                    <span class="shoppingCart__heading shoppingCart__headingName">QUANTITY</span>
+                    <span class="shoppingCart__heading shoppingCart__headingName">SHIPPING</span>
+                    <span class="shoppingCart__heading shoppingCart__headingName">SUBTOTAL</span>
+                    <span class="shoppingCart__heading shoppingCart__headingName">ACTION</span>
+                </div>
+            </div>
+
+            <div class="shoppingCart__button">
+                <button type="submit" class="shoppingCart__buttonClear cartClear">CLEAR SHOPPING CART</button>
+                <a href="index.html"><button type="submit" class="shoppingCart__buttonContinue">CONTINUE SHOPPING</button></a>
+            </div>
+
+        </section>
+
+        <section class="ordering">
+
+            <form class="ordering__delivery">
+                <h3 class="ordering__address">SHIPPING ADDRESS</h3>
+                <input class="ordering__addressDetails" type="text" placeholder="Bangladesh">
+                <input class="ordering__addressDetails" type="text" placeholder="State">
+                <input class="ordering__addressDetails" type="text" placeholder="Postcode/ Zip">
+                <button class="ordering__quote" type="submit">GET A QUOTE</button>
+            </form>
+
+            <form class="ordering__discount">
+                <h3 class="ordering__couponDiscount">COUPON DISCOUNT</h3>
+              
+                <span class="ordering__discountText">Enter your coupon code if you have one</span>
+                <input class="ordering__discountCode" type="text" placeholder="Coupon code">
+                <button class="ordering__applyCode" type="submit">APPLY COUPON</button>
+            </form>
+
+            <div class="ordering__totalPrice">
+                <div class="ordering__subTotalWrapper">
+                    <span class="ordering__subTotal">SUB TOTAL</span>
+                    <span class="ordering__subTotal subTotal">$900</span>
+                </div>
+                <div class="ordering__grandTotalWrapper">
+                    <h3 class="ordering__grandTotal">GRAND TOTAL</h3>
+                    <span class="ordering__grandTotalUsd total">$900</span>
+                </div>
+                <button class="ordering__proceedButton" type="submit">PROCEED TO CHECKOUT</button>
+            </div>
+        </section>
+
+    </main>
+    
+    <section class="communication">
+        <div class="communication__wrapper container">
+            <article class="communication__quot"> <img class="communication__quotBinBurhan" src="img/Face1.jpg" alt="BinBurhan">
+                <p class="communication__quotSpeach">«Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi, a&nbsp;pulvinar purus condimentum&nbsp;a. Aliquam condimentum mattis neque sed pretium”</p> <span class="communication__quotName">Bin Burhan</span><span class="communication__quotCity">Dhaka, Bd</span>
+                <div class="communication__pagination">
+                    <a href="#" class="communication__paginationLine"></a>
+                    <a href="#" class="communication__paginationLine communication__paginationLineActive"></a>
+                    <a href="#" class="communication__paginationLine"></a>
+                </div>
+            </article>
+            <article class="communication__subscribeWrapper"> <h3 class="communication__subscribe">Subscribe</h3> <span class="communication__newLetter">FOR OUR NEWLETTER AND PROMOTION</span>
+                <form class="communication__form" action="#">
+                    <input class="communication__enterEmail" type="text" placeholder=" Enter Your Email"><input class="communication__button" type="submit" value="Subscribe"> </form>
+                <!--ВНИМАНИЕ! ДЕРЖИ ДВА ИНПУТА ВМЕСТЕ БЕЗ ПЕРЕНОСА НА ДРУГУЮ СТРОКУ, ЧТОБЫ НЕ БЫЛО РАЗРЫВА МЕЖДУ ФОРМАМИ!!!-->
+            </article>
+        </div>
+    </section>
+    <footer class="footerUp container"></footer>
+    <footer class="footerDown"></footer>
+    <script src="script/footer.js"></script>
+    <script src="script/homePage.js"></script>
+    <script>
+        window.onload = () => {
+            let cart = new Cart('.shoppingCart__cart', '/cartPage.json', 'beforeend');
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>BranD For Man</title>
+    <script src="https://use.fontawesome.com/95b86417ef.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="fontawesome/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="fontawesome/fontawesome/webfonts" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_cart.css">
+    <link rel="stylesheet" href="style_shopping.css">
+    
+</head>
+
+<body>
+    <header class="lineTop">
+        <div class="headerFirst container">
+            <a class="headerFirst__logo" href="index.html"> <img src="img/Logo.png" alt="Logo"> <span class="headerFirst__brand">BRAN<span class="headerFirst__branD">D</span></span>
+            </a>
+            <div class="headerFirst__browseSearch">
+                <div class="headerFirst__browseForm" action="#">
+                    <button class="headerFirst__browse"><span class="headerFirst__textBrowse">Browse</span><i class="headerFirst__arrow fas fa-sort-down"></i></button>
+                </div>
+                <form class="headerFirst__searchForm" action="#">
+                    <input class="headerFirst__search" type="text" placeholder="Search for item..."><button type="submit" class="icon1"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="headerFirst__buttons">
+                <div class="headerFirst__cart">
+                    <svg width="32" height="29" viewBox="0 0 32 29">
+                    <path d="M31.899,7.565 L26.493,19.977 C26.296,20.410 25.882,20.686 25.409,20.686 L10.554,20.686 C10.021,20.686 9.548,20.331 9.410,19.819 L4.577,2.364 L1.184,2.364 C0.533,2.364 -0.000,1.832 -0.000,1.182 C-0.000,0.532 0.533,-0.001 1.184,-0.001 L5.464,-0.001 C5.997,-0.001 6.471,0.354 6.609,0.866 L11.442,18.322 L24.620,18.322 L28.999,8.274 L14.401,8.274 C13.750,8.274 13.217,7.742 13.217,7.092 C13.217,6.442 13.750,5.910 14.401,5.910 L30.814,5.910 C31.208,5.910 31.583,6.107 31.800,6.442 C32.017,6.777 32.057,7.190 31.899,7.565 ZM9.429,23.641 C10.909,23.641 12.112,24.843 12.112,26.320 C12.112,27.798 10.909,28.999 9.429,28.999 C7.950,28.999 6.747,27.798 6.747,26.320 C6.747,24.843 7.950,23.641 9.429,23.641 ZM26.020,23.641 C27.500,23.542 28.782,24.665 28.881,26.123 C28.920,26.852 28.703,27.542 28.230,28.073 C27.756,28.625 27.105,28.940 26.395,28.999 C26.336,28.999 26.257,28.999 26.198,28.999 C24.797,28.999 23.633,27.896 23.535,26.498 C23.436,25.040 24.541,23.739 26.020,23.641 Z" /> </svg>
+                </div>
+                <button class="headerFirst__myAccount">My Account</button>
+            </div>
+        </div>
+    </header>
+    <section class="homePage__cartWrapper container">
+        <div class="homePage__cart cartInvsbl">
+            <div class="shoppingCart__line">
+                <h3 class="shoppingCart__heading">PRODUCT DETAILS</h3>
+                <span class="shoppingCart__heading shoppingCart__headingName">UNIT PRICE</span>
+                <span class="shoppingCart__heading shoppingCart__headingName">QUANTITY</span>
+                <span class="shoppingCart__heading shoppingCart__headingName">SHIPPING</span>
+                <span class="shoppingCart__heading shoppingCart__headingName">SUBTOTAL</span>
+                <span class="shoppingCart__heading shoppingCart__headingName">ACTION</span>
+            </div>
+
+            <div class="homePage__cartContent"></div>
+            
+            <div class="homePage__cartBtn">
+                <button class="cartContinue">Continue shopping</button>
+                <div class="cartClear displayNone"></div>
+                <div class="total displayNone"></div>
+                <div class="subTotal displayNone"></div>
+                <a href="shoppingCart.html"><button class="cartProceed">Proceed to checkout</button></a>
+            </div>
+        </div>
+    </section>
+    <nav class="navigationFirst"> <a href="index.html">HOME</a> <a class="navigationFirst__activePage" href="#">MEN</a> <a href="#">WOMEN</a> <a href="#">KIDS</a> <a href="#">ACCESORIES</a> <a href="#">FEATURED</a> <a href="#">HOT DEALS</a> </nav>
+    <section class="homePage__filteredWrap container displayNone">
+        <button class="filterClose">x</button>
+        <div class="homePage__filtered"></div>
+    </section>
+    <section class="newArrivals">
+        <div class="newArrivals__info container"> 
+            <span class="newArrivals__heading">NEW ARRIVALS</span>
+            <a class="newArrivals__link" href="#"><span class="newArrivals__nav">HOME / </span></a>
+            <a href="#" class="newArrivals__link"><span class="newArrivals__nav">MEN / </span></a>
+            <a href="#" class="newArrivals__link"><span class="newArrivals__nav_colored">NEW ARRIVALS</span></a> 
+        </div>
+    </section>
+    <section class="productSelection container">
+        <div class="productSelection__sideBar">
+            <div class="productSelection__barItem">
+                <input class="productSelection__barToggle" type="checkbox" id="category">
+                <label for="category" class="productSelection__barItemLabel productSelection__barItemLabel_fontDarkBold"> Category </label>
+                <div class="productSelection__barNav productSelection__barNav_fontDarkLight"> <a class="productSelection__barLink" href="#">Accessories</a> <a class="productSelection__barLink" href="#">Bags</a> <a class="productSelection__barLink" href="#">Denim</a> <a class="productSelection__barLink" href="#">Hoodies & Sweatshirts</a> <a class="productSelection__barLink" href="#">Jackets & Coats</a> <a class="productSelection__barLink" href="#">Pants</a> <a class="productSelection__barLink" href="#">Polos</a> <a class="productSelection__barLink" href="#">Shirts</a> <a class="productSelection__barLink" href="#">Shoes</a> <a class="productSelection__barLink" href="#">Shorts</a> <a class="productSelection__barLink" href="#">Sweaters & Knits</a> <a class="productSelection__barLink" href="#">T-Shirts</a> <a class="productSelection__barLink" href="#">Tanks</a> </div>
+            </div>
+            <div class="productSelection__barItem">
+                <input class="productSelection__barToggle" type="checkbox" id="brand">
+                <label for="brand" class="productSelection__barItemLabel productSelection__barItemLabel_fontDarkBold"> Brand </label>
+                <div class="productSelection__barNav productSelection__barNav_fontDarkLight"> <a class="productSelection__barLink" href="#">Bohemian</a> <a class="productSelection__barLink" href="#">Floral</a> <a class="productSelection__barLink" href="#">Lace</a> <a class="productSelection__barLink" href="#">Floral</a> <a class="productSelection__barLink" href="#">Lace</a> <a class="productSelection__barLink" href="#">Bohemian</a> </div>
+            </div>
+            <div class="productSelection__barItem">
+                <input class="productSelection__barToggle" type="checkbox" id="designer">
+                <label for="designer" class="productSelection__barItemLabel productSelection__barItemLabel_fontDarkBold"> Designer </label>
+                <div class="productSelection__barNav productSelection__barNav_fontDarkLight"> <a class="productSelection__barLink" href="#">Accessories</a> <a class="productSelection__barLink" href="#">Bags</a> <a class="productSelection__barLink" href="#">Denim</a> <a class="productSelection__barLink" href="#">Hoodies & Sweatshirts</a> <a class="productSelection__barLink" href="#">Jackets & Coats</a> </div>
+            </div>
+        </div>
+        <div class="productSelection__showProduct">
+            <div class="productSelection__filterProduct">
+                <div class="productSelection__filterCollection"> <span class="productSelection__headPoint">TRENDING NOW</span>
+                    <div class="productSelection__collectionWrapper">
+                        <button class="productSelection__collection productSelection__select_font" type="submit">Bohemian</button>
+                        <button class="productSelection__collection productSelection__select_font" type="submit">Floral</button>
+                        <button class="productSelection__collection productSelection__select_font" type="submit">Lace</button>
+                        <button class="productSelection__collection productSelection__select_font" type="submit">Floral</button>
+                        <button class="productSelection__collection productSelection__select_font" type="submit">Lace</button>
+                        <button class="productSelection__collection productSelection__select_font" type="submit">Bohemian</button>
+                    </div>
+                </div>
+                <div class="productSelection__filterSize"> <span class="productSelection__headPoint">SIZE</span>
+                    <div>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size" value="XXS"><span class="productSelection__select_font">XXS</span> </label>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size" value="XS"><span class="productSelection__select_font">XS</span> </label>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size" value="S"><span class="productSelection__select_font">S</span> </label>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size" value="M"><span class="productSelection__select_font">M</span> </label>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size" value="L"><span class="productSelection__select_font">L</span> </label>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size" value="XL"><span class="productSelection__select_font">XL</span> </label>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size" value="XXL"><span class="productSelection__select_font">XXL</span> </label>
+                    </div>
+                </div>
+
+                <div class="productSelection__filterPrice"> 
+                    <span class="productSelection__headPoint">PRICE</span>
+ 
+                    <input type="text" class="js-range-slider" name="my_range" value="">
+                    <span class="productSelection__select_font productSelection__minPrice">$52</span>
+                    <span class="productSelection__select_font productSelection__maxPrice">$400</span> 
+                    
+                </div>
+
+            </div>
+
+            <div class="productSelection__sorting"> <span class="productSelection__sortingTitle productSelection__sortBy_wdth productSelection__select_font">Sort By</span>
+                <select class="productSelection__button productSelection__select_font productSelection__name_wdth">
+                    <option value="">Name</option>
+                    <option>Recommended</option>
+                    <option>Newest</option>
+                    <option>Lowest price</option>
+                    <option>Highest price</option>
+                </select> <span class="productSelection__sortingTitle productSelection__show_wdth productSelection__select_font">Show</span>
+                <select class="productSelection__button productSelection__select_font productSelection__num_wdth">
+                    <option value="">09</option>
+                    <option>18</option>
+                    <option>27</option>
+                    <option>36</option>
+                </select>
+            </div>
+
+            <div class="productSelection__groupCards"></div>
+
+            <div class="productSelection__nav">
+                <div class="productSelection__page"> <a href="#" class="productSelection__pagination"><i class="fas fa-chevron-left"></i></a> <a href="#" class="productSelection__pagination productSelection__pagination_active">1</a> <a href="#" class="productSelection__pagination">2</a> <a href="#" class="productSelection__pagination">3</a> <a href="#" class="productSelection__pagination">4</a> <a href="#" class="productSelection__pagination">5</a> <a href="#" class="productSelection__pagination">6</a> <a href="#" class="productSelection__pagination">.....</a> <a href="#" class="productSelection__pagination">20</a> <a href="#" class="productSelection__pagination productSelection__pagination_active"><i class="fas fa-chevron-right"></i></a> </div>
+                <button class="productSelection__paginationButton" type="submit">View All</button>
+            </div>
+        </div>
+    </section>
+    <section class="shopInfo">
+        <div class="shopInfo__wrapper container"> <img class="shopInfo-pic" src="img/Forma1.svg" alt="Picture"> <img class="shopInfo-pic" src="img/Forma2.svg" alt="Picture"> <img class="shopInfo-pic" src="img/Forma3.svg" alt="Picture">
+            <div class="shopInfo__header"> <span class="shopInfo__headerDelivery shopInfo__header_font">Free Delivery</span> <span class="shopInfo__headerSales shopInfo__header_font">Sales & discounts</span> <span class="shopInfo__headerQuality shopInfo__header_font">Quality assurance</span> </div>
+            <article class="shopInfo__info"> <span class="shopInfo__text shopInfo__text_font">Worldwide delivery on all. Authorit atively morph next-generation innovation with extensive models.</span> <span class="shopInfo__text shopInfo__text_font">Worldwide delivery on all. Authorit atively morph next-generation innovation with extensive models.</span> <span class="shopInfo__text shopInfo__text_font">Worldwide delivery on all. Authorit atively morph next-generation innovation with extensive models.</span> </article>
+        </div>
+    </section>
+    <section class="communication">
+        <div class="communication__wrapper container">
+            <article class="communication__quot"> <img class="communication__quotBinBurhan" src="img/Face1.jpg" alt="BinBurhan">
+                <p class="communication__quotSpeach">«Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi, a&nbsp;pulvinar purus condimentum&nbsp;a. Aliquam condimentum mattis neque sed pretium”</p> <span class="communication__quotName">Bin Burhan</span><span class="communication__quotCity">Dhaka, Bd</span>
+                <div class="communication__pagination">
+                    <a href="#" class="communication__paginationLine"></a>
+                    <a href="#" class="communication__paginationLine communication__paginationLineActive"></a>
+                    <a href="#" class="communication__paginationLine"></a>
+                </div>
+            </article>
+            <article class="communication__subscribeWrapper"> <h3 class="communication__subscribe">Subscribe</h3> <span class="communication__newLetter">FOR OUR NEWLETTER AND PROMOTION</span>
+                <form class="communication__form" action="#">
+                    <form class="communication__form" action="#">
+                        <input class="communication__enterEmail" type="text" placeholder=" Enter Your Email" required><input class="communication__button" type="submit" value="Subscribe">
+                        <input class="communication__success displayNone" type="text" readonly value="Subscription Successful">
+                    </form>
+                <!--ВНИМАНИЕ! ДЕРЖИ ДВА ИНПУТА ВМЕСТЕ БЕЗ ПЕРЕНОСА НА ДРУГУЮ СТРОКУ, ЧТОБЫ НЕ БЫЛО РАЗРЫВА МЕЖДУ ФОРМАМИ!!!-->
+            </article>
+        </div>
+    </section>
+
+    <footer class="footerUp container"></footer>
+    <footer class="footerDown"></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Plugin JavaScript file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <!-- <script src="script/rangeSlider.js"></script> -->
+
+    <script src="script/homePage.js"></script>
+    <script src="script/footer.js"></script>
+    <script src="script/subscribe.js"></script>
+    <script>
+        
+            let cartMenPage = new Cart('.homePage__cartContent', '/cartPage.json', 'beforeend');
+            let catalogMen = new CatalogMen(cartMenPage, '.productSelection__groupCards', '/menPage.json', 'beforeend');
+            let filtered = new FilteredHome(cartMenPage, '.homePage__filtered', '/menPage.json', 'beforeend', '.productSelection');
+            let rangeSlider = new RangeSlider();
+        
+        
+    </script>
+</body>
+
+</html>
+
