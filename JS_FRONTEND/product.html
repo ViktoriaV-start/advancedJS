@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>BranD For Man</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/95b86417ef.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">-->
+    <link href="fontawesome/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="fontawesome/fontawesome/webfonts" rel="stylesheet">
+    <!--<script src="https://use.fontawesome.com/95b86417ef.js"></script>-->
+</head>
+
+<body>
+    <header class="lineTop">
+        <div class="headerFirst container">
+            <a class="headerFirst__logo" href="index.html"> <img src="img/Logo.png" alt="Logo"> <span class="headerFirst__brand">BRAN<span class="headerFirst__branD">D</span></span>
+            </a>
+            <form class="headerFirst__form" action="#">
+                <button class="headerFirst__browse"><span class="headerFirst__textBrowse">Browse</span><i class="headerFirst__arrow fas fa-sort-down"></i></button>
+                <input class="headerFirst__search" type="text" placeholder="Search for item..."> <img class="icon1" src="img/Icon1.svg" alt="Icon"> </form>
+            <div class="headerFirst__buttons">
+                <a class="headerFirst__cart" href="shoppingCart.html">
+                    <svg width="32" height="29" viewBox="0 0 32 29">
+                        <path d="M31.899,7.565 L26.493,19.977 C26.296,20.410 25.882,20.686 25.409,20.686 L10.554,20.686 C10.021,20.686 9.548,20.331 9.410,19.819 L4.577,2.364 L1.184,2.364 C0.533,2.364 -0.000,1.832 -0.000,1.182 C-0.000,0.532 0.533,-0.001 1.184,-0.001 L5.464,-0.001 C5.997,-0.001 6.471,0.354 6.609,0.866 L11.442,18.322 L24.620,18.322 L28.999,8.274 L14.401,8.274 C13.750,8.274 13.217,7.742 13.217,7.092 C13.217,6.442 13.750,5.910 14.401,5.910 L30.814,5.910 C31.208,5.910 31.583,6.107 31.800,6.442 C32.017,6.777 32.057,7.190 31.899,7.565 ZM9.429,23.641 C10.909,23.641 12.112,24.843 12.112,26.320 C12.112,27.798 10.909,28.999 9.429,28.999 C7.950,28.999 6.747,27.798 6.747,26.320 C6.747,24.843 7.950,23.641 9.429,23.641 ZM26.020,23.641 C27.500,23.542 28.782,24.665 28.881,26.123 C28.920,26.852 28.703,27.542 28.230,28.073 C27.756,28.625 27.105,28.940 26.395,28.999 C26.336,28.999 26.257,28.999 26.198,28.999 C24.797,28.999 23.633,27.896 23.535,26.498 C23.436,25.040 24.541,23.739 26.020,23.641 Z" /> </svg>
+                    </a>
+                <button class="headerFirst__myAccount">My Account</button>
+            </div>
+        </div>
+    </header>
+    <nav class="navigationFirst"> <a href="index.html">HOME</a> <a class="navigationFirst__activePage" href="#">MAN</a> <a href="page.html">WOMEN</a> <a href="checkout.html">KIDS</a> <a href="#">ACCESORIES</a> <a href="#">FEATURED</a> <a href="#">HOT DEALS</a> </nav>
+    <section class="newArrivals">
+        <div class="newArrivals__info container"> 
+            <span class="newArrivals__heading">NEW ARRIVALS</span>
+            <a class="newArrivals__link" href="#"><span class="newArrivals__nav">HOME / </span></a>
+            <a href="#" class="newArrivals__link"><span class="newArrivals__nav">MEN / </span></a>
+            <a href="#" class="newArrivals__link"><span class="newArrivals__nav_colored">NEW ARRIVALS</span></a> 
+        </div>
+    </section>
+    <section class="productSelection container">
+        <div class="productSelection__sideBar">
+            <div class="productSelection__barItem">
+                <input class="productSelection__barToggle" type="checkbox" id="category">
+                <label for="category" class="productSelection__barItemLabel productSelection__barItemLabel_fontDarkBold"> Category </label>
+                <div class="productSelection__barNav productSelection__barNav_fontDarkLight"> <a class="productSelection__barLink" href="#">Accessories</a> <a class="productSelection__barLink" href="#">Bags</a> <a class="productSelection__barLink" href="#">Denim</a> <a class="productSelection__barLink" href="#">Hoodies & Sweatshirts</a> <a class="productSelection__barLink" href="#">Jackets & Coats</a> <a class="productSelection__barLink" href="#">Pants</a> <a class="productSelection__barLink" href="#">Polos</a> <a class="productSelection__barLink" href="#">Shirts</a> <a class="productSelection__barLink" href="#">Shoes</a> <a class="productSelection__barLink" href="#">Shorts</a> <a class="productSelection__barLink" href="#">Sweaters & Knits</a> <a class="productSelection__barLink" href="#">T-Shirts</a> <a class="productSelection__barLink" href="#">Tanks</a> </div>
+            </div>
+            <div class="productSelection__barItem">
+                <input class="productSelection__barToggle" type="checkbox" id="brand">
+                <label for="brand" class="productSelection__barItemLabel productSelection__barItemLabel_fontDarkBold"> Brand </label>
+                <div class="productSelection__barNav productSelection__barNav_fontDarkLight"> <a class="productSelection__barLink" href="#">Bohemian</a> <a class="productSelection__barLink" href="#">Floral</a> <a class="productSelection__barLink" href="#">Lace</a> <a class="productSelection__barLink" href="#">Floral</a> <a class="productSelection__barLink" href="#">Lace</a> <a class="productSelection__barLink" href="#">Bohemian</a> </div>
+            </div>
+            <div class="productSelection__barItem">
+                <input class="productSelection__barToggle" type="checkbox" id="designer">
+                <label for="designer" class="productSelection__barItemLabel productSelection__barItemLabel_fontDarkBold"> Designer </label>
+                <div class="productSelection__barNav productSelection__barNav_fontDarkLight"> <a class="productSelection__barLink" href="#">Accessories</a> <a class="productSelection__barLink" href="#">Bags</a> <a class="productSelection__barLink" href="#">Denim</a> <a class="productSelection__barLink" href="#">Hoodies & Sweatshirts</a> <a class="productSelection__barLink" href="#">Jackets & Coats</a> </div>
+            </div>
+        </div>
+        <div class="productSelection__showProduct">
+            <div class="productSelection__filterProduct">
+                <div class="productSelection__filterCollection"> <span class="productSelection__headPoint">TRENDING NOW</span>
+                    <div class="productSelection__collectionWrapper">
+                        <button class="productSelection__collection productSelection__select_font" type="submit">Bohemian</button>
+                        <button class="productSelection__collection productSelection__select_font" type="submit">Floral</button>
+                        <button class="productSelection__collection productSelection__select_font" type="submit">Lace</button>
+                        <button class="productSelection__collection productSelection__select_font" type="submit">Floral</button>
+                        <button class="productSelection__collection productSelection__select_font" type="submit">Lace</button>
+                        <button class="productSelection__collection productSelection__select_font" type="submit">Bohemian</button>
+                    </div>
+                </div>
+                <div class="productSelection__filterSize"> <span class="productSelection__headPoint">SIZE</span>
+                    <div>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">XXS</span> </label>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">XS</span> </label>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">S</span> </label>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">M</span> </label>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">L</span> </label>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">XL</span> </label>
+                        <label class="productSelection__sizeItem">
+                            <input type="checkbox" class="productSelection__size"><span class="productSelection__select_font">XXL</span> </label>
+                    </div>
+                </div>
+                <div class="productSelection__filterPrice"> <span class="productSelection__headPoint">PRICE</span>
+                    <div class="productSelection__range">
+                        <div class="productSelection__rangeControl">
+                            <div class="sproductSelection__scale">
+                                <div class="productSelection__bar"></div>
+                            </div>
+                            <div class="productSelection__toggle productSelection__toggleMin" tabindex="0"></div>
+                            <div class="productSelection__toggle productSelection__toggleMax" tabindex="0"></div>
+                        </div>
+                    </div> <span class="productSelection__select_font productSelection__minPrice">$52</span> <span class="productSelection__select_font productSelection__maxPrice">$400</span> </div>
+            </div>
+            <div class="productSelection__sorting"> <span class="productSelection__sortingTitle productSelection__sortBy_wdth productSelection__select_font">Sort By</span>
+                <select class="productSelection__button productSelection__select_font productSelection__name_wdth">
+                    <option value="">Name</option>
+                    <option>Recommended</option>
+                    <option>Newest</option>
+                    <option>Lowest price</option>
+                    <option>Highest price</option>
+                </select> <span class="productSelection__sortingTitle productSelection__show_wdth productSelection__select_font">Show</span>
+                <select class="productSelection__button productSelection__select_font productSelection__num_wdth">
+                    <option value="">09</option>
+                    <option>18</option>
+                    <option>27</option>
+                    <option>36</option>
+                </select>
+            </div>
+            <div class="productSelection__groupCards">
+                <figure class="productSelection__card"> <img src="img/productSelection1.jpg" alt="Mango">
+                    <figcaption class="productSelection__mango">
+                        <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                    <div class="productSelection__cardHover"></div>
+                    <button type="submit" class="productSelection__cardHoverCart">
+                        <svg class="whiteCart" fill="rgb(255, 255, 255)" width="32" height="29" viewBox="0 0 32 29">
+                            <path d="M31.899,7.565 L26.493,19.977 C26.296,20.410 25.882,20.686 25.409,20.686 L10.554,20.686 C10.021,20.686 9.548,20.331 9.410,19.819 L4.577,2.364 L1.184,2.364 C0.533,2.364 -0.000,1.832 -0.000,1.182 C-0.000,0.532 0.533,-0.001 1.184,-0.001 L5.464,-0.001 C5.997,-0.001 6.471,0.354 6.609,0.866 L11.442,18.322 L24.620,18.322 L28.999,8.274 L14.401,8.274 C13.750,8.274 13.217,7.742 13.217,7.092 C13.217,6.442 13.750,5.910 14.401,5.910 L30.814,5.910 C31.208,5.910 31.583,6.107 31.800,6.442 C32.017,6.777 32.057,7.190 31.899,7.565 ZM9.429,23.641 C10.909,23.641 12.112,24.843 12.112,26.320 C12.112,27.798 10.909,28.999 9.429,28.999 C7.950,28.999 6.747,27.798 6.747,26.320 C6.747,24.843 7.950,23.641 9.429,23.641 ZM26.020,23.641 C27.500,23.542 28.782,24.665 28.881,26.123 C28.920,26.852 28.703,27.542 28.230,28.073 C27.756,28.625 27.105,28.940 26.395,28.999 C26.336,28.999 26.257,28.999 26.198,28.999 C24.797,28.999 23.633,27.896 23.535,26.498 C23.436,25.040 24.541,23.739 26.020,23.641 Z" /> </svg> <span class="productSelection__addToCart">Add to cart</span></button>
+                    <div class="productSelection__hoverIconWrapper">
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 -5 23 22">
+                                <path d="M21.702,7.179 C21.325,6.788 20.714,6.788 20.338,7.179 L18.986,8.582 L18.986,1.001 C18.986,0.448 18.554,-0.000 18.021,-0.000 L8.582,-0.000 C8.050,-0.000 7.618,0.448 7.618,1.001 C7.618,1.553 8.050,2.002 8.582,2.002 L17.057,2.002 L17.057,8.582 L15.705,7.178 C15.328,6.787 14.718,6.787 14.342,7.178 C13.965,7.569 13.965,8.202 14.341,8.594 L17.339,11.705 C17.521,11.894 17.766,11.999 18.021,11.999 C18.278,11.999 18.522,11.893 18.704,11.705 L21.702,8.594 C22.078,8.203 22.078,7.569 21.702,7.179 ZM13.401,9.998 L4.926,9.998 L4.926,3.418 L6.278,4.821 C6.467,5.017 6.713,5.114 6.960,5.114 C7.207,5.114 7.454,5.017 7.642,4.821 C8.019,4.430 8.019,3.797 7.642,3.406 L4.644,0.293 C4.463,0.106 4.218,0.000 3.962,0.000 C3.705,0.000 3.460,0.106 3.279,0.293 L0.282,3.406 C-0.095,3.797 -0.095,4.430 0.282,4.821 C0.659,5.212 1.268,5.212 1.645,4.821 L2.998,3.418 L2.998,10.999 C2.998,11.551 3.429,12.000 3.962,12.000 L13.401,12.000 C13.934,12.000 14.365,11.551 14.365,10.999 C14.365,10.446 13.934,9.998 13.401,9.998 Z" /> </svg>
+                        </button>
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 0 23 22">
+                                <path d="M11.500,18.500 C11.349,18.500 11.206,18.437 11.103,18.326 L4.708,11.411 C4.707,11.409 4.705,11.407 4.704,11.405 C3.927,10.543 3.500,9.400 3.500,8.187 C3.500,6.974 3.927,5.831 4.704,4.969 L4.801,4.861 C5.591,3.983 6.646,3.500 7.771,3.500 C8.897,3.500 9.952,3.983 10.742,4.861 L11.500,5.703 L12.258,4.861 C13.048,3.983 14.103,3.500 15.229,3.500 C16.354,3.500 17.409,3.983 18.199,4.861 L18.296,4.969 C19.072,5.831 19.500,6.974 19.500,8.187 C19.500,9.400 19.072,10.543 18.296,11.405 C18.295,11.407 18.293,11.409 18.291,11.411 L11.897,18.326 C11.794,18.437 11.651,18.500 11.500,18.500 ZM5.505,10.674 L11.500,17.158 L17.495,10.674 C18.729,9.301 18.728,7.069 17.493,5.697 L17.396,5.589 C16.814,4.942 16.044,4.586 15.229,4.586 C14.413,4.586 13.644,4.942 13.061,5.589 L11.902,6.878 C11.799,6.991 11.653,7.056 11.500,7.056 C11.347,7.056 11.201,6.991 11.098,6.878 L9.939,5.589 C9.356,4.942 8.587,4.586 7.771,4.586 C6.956,4.586 6.186,4.942 5.604,5.589 L5.507,5.697 C4.272,7.069 4.271,9.301 5.505,10.674 Z" /> </svg>
+                        </button>
+                    </div>
+                </figure>
+                
+                <figure class="productSelection__card"><img src="img/productSelection2.jpg" alt="Mango">
+                    <figcaption class="productSelection__mango">
+                        <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                    <div class="productSelection__cardHover"></div>
+                    <button class="productSelection__cardHoverCart">
+                        <svg class="whiteCart" fill="rgb(255, 255, 255)" width="32" height="29" viewBox="0 0 32 29">
+                            <path d="M31.899,7.565 L26.493,19.977 C26.296,20.410 25.882,20.686 25.409,20.686 L10.554,20.686 C10.021,20.686 9.548,20.331 9.410,19.819 L4.577,2.364 L1.184,2.364 C0.533,2.364 -0.000,1.832 -0.000,1.182 C-0.000,0.532 0.533,-0.001 1.184,-0.001 L5.464,-0.001 C5.997,-0.001 6.471,0.354 6.609,0.866 L11.442,18.322 L24.620,18.322 L28.999,8.274 L14.401,8.274 C13.750,8.274 13.217,7.742 13.217,7.092 C13.217,6.442 13.750,5.910 14.401,5.910 L30.814,5.910 C31.208,5.910 31.583,6.107 31.800,6.442 C32.017,6.777 32.057,7.190 31.899,7.565 ZM9.429,23.641 C10.909,23.641 12.112,24.843 12.112,26.320 C12.112,27.798 10.909,28.999 9.429,28.999 C7.950,28.999 6.747,27.798 6.747,26.320 C6.747,24.843 7.950,23.641 9.429,23.641 ZM26.020,23.641 C27.500,23.542 28.782,24.665 28.881,26.123 C28.920,26.852 28.703,27.542 28.230,28.073 C27.756,28.625 27.105,28.940 26.395,28.999 C26.336,28.999 26.257,28.999 26.198,28.999 C24.797,28.999 23.633,27.896 23.535,26.498 C23.436,25.040 24.541,23.739 26.020,23.641 Z" /> </svg> <span class="productSelection__addToCart">Add to cart</span></button>
+                    <div class="productSelection__hoverIconWrapper">
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 -5 23 22">
+                                <path d="M21.702,7.179 C21.325,6.788 20.714,6.788 20.338,7.179 L18.986,8.582 L18.986,1.001 C18.986,0.448 18.554,-0.000 18.021,-0.000 L8.582,-0.000 C8.050,-0.000 7.618,0.448 7.618,1.001 C7.618,1.553 8.050,2.002 8.582,2.002 L17.057,2.002 L17.057,8.582 L15.705,7.178 C15.328,6.787 14.718,6.787 14.342,7.178 C13.965,7.569 13.965,8.202 14.341,8.594 L17.339,11.705 C17.521,11.894 17.766,11.999 18.021,11.999 C18.278,11.999 18.522,11.893 18.704,11.705 L21.702,8.594 C22.078,8.203 22.078,7.569 21.702,7.179 ZM13.401,9.998 L4.926,9.998 L4.926,3.418 L6.278,4.821 C6.467,5.017 6.713,5.114 6.960,5.114 C7.207,5.114 7.454,5.017 7.642,4.821 C8.019,4.430 8.019,3.797 7.642,3.406 L4.644,0.293 C4.463,0.106 4.218,0.000 3.962,0.000 C3.705,0.000 3.460,0.106 3.279,0.293 L0.282,3.406 C-0.095,3.797 -0.095,4.430 0.282,4.821 C0.659,5.212 1.268,5.212 1.645,4.821 L2.998,3.418 L2.998,10.999 C2.998,11.551 3.429,12.000 3.962,12.000 L13.401,12.000 C13.934,12.000 14.365,11.551 14.365,10.999 C14.365,10.446 13.934,9.998 13.401,9.998 Z" /> </svg>
+                        </button>
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 0 23 22">
+                                <path d="M11.500,18.500 C11.349,18.500 11.206,18.437 11.103,18.326 L4.708,11.411 C4.707,11.409 4.705,11.407 4.704,11.405 C3.927,10.543 3.500,9.400 3.500,8.187 C3.500,6.974 3.927,5.831 4.704,4.969 L4.801,4.861 C5.591,3.983 6.646,3.500 7.771,3.500 C8.897,3.500 9.952,3.983 10.742,4.861 L11.500,5.703 L12.258,4.861 C13.048,3.983 14.103,3.500 15.229,3.500 C16.354,3.500 17.409,3.983 18.199,4.861 L18.296,4.969 C19.072,5.831 19.500,6.974 19.500,8.187 C19.500,9.400 19.072,10.543 18.296,11.405 C18.295,11.407 18.293,11.409 18.291,11.411 L11.897,18.326 C11.794,18.437 11.651,18.500 11.500,18.500 ZM5.505,10.674 L11.500,17.158 L17.495,10.674 C18.729,9.301 18.728,7.069 17.493,5.697 L17.396,5.589 C16.814,4.942 16.044,4.586 15.229,4.586 C14.413,4.586 13.644,4.942 13.061,5.589 L11.902,6.878 C11.799,6.991 11.653,7.056 11.500,7.056 C11.347,7.056 11.201,6.991 11.098,6.878 L9.939,5.589 C9.356,4.942 8.587,4.586 7.771,4.586 C6.956,4.586 6.186,4.942 5.604,5.589 L5.507,5.697 C4.272,7.069 4.271,9.301 5.505,10.674 Z" /> </svg>
+                        </button>
+                    </div>
+                </figure>
+                <figure class="productSelection__card"> <img src="img/card3.jpg" alt="Mango">
+                    <figcaption class="productSelection__mango">
+                        <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                    <div class="productSelection__cardHover"></div>
+                    <button type="submit" class="productSelection__cardHoverCart">
+                        <svg class="whiteCart" fill="rgb(255, 255, 255)" width="32" height="29" viewBox="0 0 32 29">
+                            <path d="M31.899,7.565 L26.493,19.977 C26.296,20.410 25.882,20.686 25.409,20.686 L10.554,20.686 C10.021,20.686 9.548,20.331 9.410,19.819 L4.577,2.364 L1.184,2.364 C0.533,2.364 -0.000,1.832 -0.000,1.182 C-0.000,0.532 0.533,-0.001 1.184,-0.001 L5.464,-0.001 C5.997,-0.001 6.471,0.354 6.609,0.866 L11.442,18.322 L24.620,18.322 L28.999,8.274 L14.401,8.274 C13.750,8.274 13.217,7.742 13.217,7.092 C13.217,6.442 13.750,5.910 14.401,5.910 L30.814,5.910 C31.208,5.910 31.583,6.107 31.800,6.442 C32.017,6.777 32.057,7.190 31.899,7.565 ZM9.429,23.641 C10.909,23.641 12.112,24.843 12.112,26.320 C12.112,27.798 10.909,28.999 9.429,28.999 C7.950,28.999 6.747,27.798 6.747,26.320 C6.747,24.843 7.950,23.641 9.429,23.641 ZM26.020,23.641 C27.500,23.542 28.782,24.665 28.881,26.123 C28.920,26.852 28.703,27.542 28.230,28.073 C27.756,28.625 27.105,28.940 26.395,28.999 C26.336,28.999 26.257,28.999 26.198,28.999 C24.797,28.999 23.633,27.896 23.535,26.498 C23.436,25.040 24.541,23.739 26.020,23.641 Z" /> </svg> <span class="productSelection__addToCart">Add to cart</span></button>
+                    <div class="productSelection__hoverIconWrapper">
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 -5 23 22">
+                                <path d="M21.702,7.179 C21.325,6.788 20.714,6.788 20.338,7.179 L18.986,8.582 L18.986,1.001 C18.986,0.448 18.554,-0.000 18.021,-0.000 L8.582,-0.000 C8.050,-0.000 7.618,0.448 7.618,1.001 C7.618,1.553 8.050,2.002 8.582,2.002 L17.057,2.002 L17.057,8.582 L15.705,7.178 C15.328,6.787 14.718,6.787 14.342,7.178 C13.965,7.569 13.965,8.202 14.341,8.594 L17.339,11.705 C17.521,11.894 17.766,11.999 18.021,11.999 C18.278,11.999 18.522,11.893 18.704,11.705 L21.702,8.594 C22.078,8.203 22.078,7.569 21.702,7.179 ZM13.401,9.998 L4.926,9.998 L4.926,3.418 L6.278,4.821 C6.467,5.017 6.713,5.114 6.960,5.114 C7.207,5.114 7.454,5.017 7.642,4.821 C8.019,4.430 8.019,3.797 7.642,3.406 L4.644,0.293 C4.463,0.106 4.218,0.000 3.962,0.000 C3.705,0.000 3.460,0.106 3.279,0.293 L0.282,3.406 C-0.095,3.797 -0.095,4.430 0.282,4.821 C0.659,5.212 1.268,5.212 1.645,4.821 L2.998,3.418 L2.998,10.999 C2.998,11.551 3.429,12.000 3.962,12.000 L13.401,12.000 C13.934,12.000 14.365,11.551 14.365,10.999 C14.365,10.446 13.934,9.998 13.401,9.998 Z" /> </svg>
+                        </button>
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 0 23 22">
+                                <path d="M11.500,18.500 C11.349,18.500 11.206,18.437 11.103,18.326 L4.708,11.411 C4.707,11.409 4.705,11.407 4.704,11.405 C3.927,10.543 3.500,9.400 3.500,8.187 C3.500,6.974 3.927,5.831 4.704,4.969 L4.801,4.861 C5.591,3.983 6.646,3.500 7.771,3.500 C8.897,3.500 9.952,3.983 10.742,4.861 L11.500,5.703 L12.258,4.861 C13.048,3.983 14.103,3.500 15.229,3.500 C16.354,3.500 17.409,3.983 18.199,4.861 L18.296,4.969 C19.072,5.831 19.500,6.974 19.500,8.187 C19.500,9.400 19.072,10.543 18.296,11.405 C18.295,11.407 18.293,11.409 18.291,11.411 L11.897,18.326 C11.794,18.437 11.651,18.500 11.500,18.500 ZM5.505,10.674 L11.500,17.158 L17.495,10.674 C18.729,9.301 18.728,7.069 17.493,5.697 L17.396,5.589 C16.814,4.942 16.044,4.586 15.229,4.586 C14.413,4.586 13.644,4.942 13.061,5.589 L11.902,6.878 C11.799,6.991 11.653,7.056 11.500,7.056 C11.347,7.056 11.201,6.991 11.098,6.878 L9.939,5.589 C9.356,4.942 8.587,4.586 7.771,4.586 C6.956,4.586 6.186,4.942 5.604,5.589 L5.507,5.697 C4.272,7.069 4.271,9.301 5.505,10.674 Z" /> </svg>
+                        </button>
+                    </div>
+                </figure>
+                <figure class="productSelection__card"><img src="img/productSelection4.jpg" alt="Mango">
+                    <figcaption class="productSelection__mango">
+                        <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                    <div class="productSelection__cardHover"></div>
+                    <button class="productSelection__cardHoverCart">
+                        <svg class="whiteCart" fill="rgb(255, 255, 255)" width="32" height="29" viewBox="0 0 32 29">
+                            <path d="M31.899,7.565 L26.493,19.977 C26.296,20.410 25.882,20.686 25.409,20.686 L10.554,20.686 C10.021,20.686 9.548,20.331 9.410,19.819 L4.577,2.364 L1.184,2.364 C0.533,2.364 -0.000,1.832 -0.000,1.182 C-0.000,0.532 0.533,-0.001 1.184,-0.001 L5.464,-0.001 C5.997,-0.001 6.471,0.354 6.609,0.866 L11.442,18.322 L24.620,18.322 L28.999,8.274 L14.401,8.274 C13.750,8.274 13.217,7.742 13.217,7.092 C13.217,6.442 13.750,5.910 14.401,5.910 L30.814,5.910 C31.208,5.910 31.583,6.107 31.800,6.442 C32.017,6.777 32.057,7.190 31.899,7.565 ZM9.429,23.641 C10.909,23.641 12.112,24.843 12.112,26.320 C12.112,27.798 10.909,28.999 9.429,28.999 C7.950,28.999 6.747,27.798 6.747,26.320 C6.747,24.843 7.950,23.641 9.429,23.641 ZM26.020,23.641 C27.500,23.542 28.782,24.665 28.881,26.123 C28.920,26.852 28.703,27.542 28.230,28.073 C27.756,28.625 27.105,28.940 26.395,28.999 C26.336,28.999 26.257,28.999 26.198,28.999 C24.797,28.999 23.633,27.896 23.535,26.498 C23.436,25.040 24.541,23.739 26.020,23.641 Z" /> </svg> <span class="productSelection__addToCart">Add to cart</span></button>
+                    <div class="productSelection__hoverIconWrapper">
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 -5 23 22">
+                                <path d="M21.702,7.179 C21.325,6.788 20.714,6.788 20.338,7.179 L18.986,8.582 L18.986,1.001 C18.986,0.448 18.554,-0.000 18.021,-0.000 L8.582,-0.000 C8.050,-0.000 7.618,0.448 7.618,1.001 C7.618,1.553 8.050,2.002 8.582,2.002 L17.057,2.002 L17.057,8.582 L15.705,7.178 C15.328,6.787 14.718,6.787 14.342,7.178 C13.965,7.569 13.965,8.202 14.341,8.594 L17.339,11.705 C17.521,11.894 17.766,11.999 18.021,11.999 C18.278,11.999 18.522,11.893 18.704,11.705 L21.702,8.594 C22.078,8.203 22.078,7.569 21.702,7.179 ZM13.401,9.998 L4.926,9.998 L4.926,3.418 L6.278,4.821 C6.467,5.017 6.713,5.114 6.960,5.114 C7.207,5.114 7.454,5.017 7.642,4.821 C8.019,4.430 8.019,3.797 7.642,3.406 L4.644,0.293 C4.463,0.106 4.218,0.000 3.962,0.000 C3.705,0.000 3.460,0.106 3.279,0.293 L0.282,3.406 C-0.095,3.797 -0.095,4.430 0.282,4.821 C0.659,5.212 1.268,5.212 1.645,4.821 L2.998,3.418 L2.998,10.999 C2.998,11.551 3.429,12.000 3.962,12.000 L13.401,12.000 C13.934,12.000 14.365,11.551 14.365,10.999 C14.365,10.446 13.934,9.998 13.401,9.998 Z" /> </svg>
+                        </button>
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 0 23 22">
+                                <path d="M11.500,18.500 C11.349,18.500 11.206,18.437 11.103,18.326 L4.708,11.411 C4.707,11.409 4.705,11.407 4.704,11.405 C3.927,10.543 3.500,9.400 3.500,8.187 C3.500,6.974 3.927,5.831 4.704,4.969 L4.801,4.861 C5.591,3.983 6.646,3.500 7.771,3.500 C8.897,3.500 9.952,3.983 10.742,4.861 L11.500,5.703 L12.258,4.861 C13.048,3.983 14.103,3.500 15.229,3.500 C16.354,3.500 17.409,3.983 18.199,4.861 L18.296,4.969 C19.072,5.831 19.500,6.974 19.500,8.187 C19.500,9.400 19.072,10.543 18.296,11.405 C18.295,11.407 18.293,11.409 18.291,11.411 L11.897,18.326 C11.794,18.437 11.651,18.500 11.500,18.500 ZM5.505,10.674 L11.500,17.158 L17.495,10.674 C18.729,9.301 18.728,7.069 17.493,5.697 L17.396,5.589 C16.814,4.942 16.044,4.586 15.229,4.586 C14.413,4.586 13.644,4.942 13.061,5.589 L11.902,6.878 C11.799,6.991 11.653,7.056 11.500,7.056 C11.347,7.056 11.201,6.991 11.098,6.878 L9.939,5.589 C9.356,4.942 8.587,4.586 7.771,4.586 C6.956,4.586 6.186,4.942 5.604,5.589 L5.507,5.697 C4.272,7.069 4.271,9.301 5.505,10.674 Z" /> </svg>
+                        </button>
+                    </div>
+                </figure>
+                <figure class="productSelection__card"><img src="img/card8.jpg" alt="Mango">
+                    <figcaption class="productSelection__mango">
+                        <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                    <div class="productSelection__cardHover"></div>
+                    <button class="productSelection__cardHoverCart">
+                        <svg class="whiteCart" fill="rgb(255, 255, 255)" width="32" height="29" viewBox="0 0 32 29">
+                            <path d="M31.899,7.565 L26.493,19.977 C26.296,20.410 25.882,20.686 25.409,20.686 L10.554,20.686 C10.021,20.686 9.548,20.331 9.410,19.819 L4.577,2.364 L1.184,2.364 C0.533,2.364 -0.000,1.832 -0.000,1.182 C-0.000,0.532 0.533,-0.001 1.184,-0.001 L5.464,-0.001 C5.997,-0.001 6.471,0.354 6.609,0.866 L11.442,18.322 L24.620,18.322 L28.999,8.274 L14.401,8.274 C13.750,8.274 13.217,7.742 13.217,7.092 C13.217,6.442 13.750,5.910 14.401,5.910 L30.814,5.910 C31.208,5.910 31.583,6.107 31.800,6.442 C32.017,6.777 32.057,7.190 31.899,7.565 ZM9.429,23.641 C10.909,23.641 12.112,24.843 12.112,26.320 C12.112,27.798 10.909,28.999 9.429,28.999 C7.950,28.999 6.747,27.798 6.747,26.320 C6.747,24.843 7.950,23.641 9.429,23.641 ZM26.020,23.641 C27.500,23.542 28.782,24.665 28.881,26.123 C28.920,26.852 28.703,27.542 28.230,28.073 C27.756,28.625 27.105,28.940 26.395,28.999 C26.336,28.999 26.257,28.999 26.198,28.999 C24.797,28.999 23.633,27.896 23.535,26.498 C23.436,25.040 24.541,23.739 26.020,23.641 Z" /> </svg> <span class="productSelection__addToCart">Add to cart</span></button>
+                    <div class="productSelection__hoverIconWrapper">
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 -5 23 22">
+                                <path d="M21.702,7.179 C21.325,6.788 20.714,6.788 20.338,7.179 L18.986,8.582 L18.986,1.001 C18.986,0.448 18.554,-0.000 18.021,-0.000 L8.582,-0.000 C8.050,-0.000 7.618,0.448 7.618,1.001 C7.618,1.553 8.050,2.002 8.582,2.002 L17.057,2.002 L17.057,8.582 L15.705,7.178 C15.328,6.787 14.718,6.787 14.342,7.178 C13.965,7.569 13.965,8.202 14.341,8.594 L17.339,11.705 C17.521,11.894 17.766,11.999 18.021,11.999 C18.278,11.999 18.522,11.893 18.704,11.705 L21.702,8.594 C22.078,8.203 22.078,7.569 21.702,7.179 ZM13.401,9.998 L4.926,9.998 L4.926,3.418 L6.278,4.821 C6.467,5.017 6.713,5.114 6.960,5.114 C7.207,5.114 7.454,5.017 7.642,4.821 C8.019,4.430 8.019,3.797 7.642,3.406 L4.644,0.293 C4.463,0.106 4.218,0.000 3.962,0.000 C3.705,0.000 3.460,0.106 3.279,0.293 L0.282,3.406 C-0.095,3.797 -0.095,4.430 0.282,4.821 C0.659,5.212 1.268,5.212 1.645,4.821 L2.998,3.418 L2.998,10.999 C2.998,11.551 3.429,12.000 3.962,12.000 L13.401,12.000 C13.934,12.000 14.365,11.551 14.365,10.999 C14.365,10.446 13.934,9.998 13.401,9.998 Z" /> </svg>
+                        </button>
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 0 23 22">
+                                <path d="M11.500,18.500 C11.349,18.500 11.206,18.437 11.103,18.326 L4.708,11.411 C4.707,11.409 4.705,11.407 4.704,11.405 C3.927,10.543 3.500,9.400 3.500,8.187 C3.500,6.974 3.927,5.831 4.704,4.969 L4.801,4.861 C5.591,3.983 6.646,3.500 7.771,3.500 C8.897,3.500 9.952,3.983 10.742,4.861 L11.500,5.703 L12.258,4.861 C13.048,3.983 14.103,3.500 15.229,3.500 C16.354,3.500 17.409,3.983 18.199,4.861 L18.296,4.969 C19.072,5.831 19.500,6.974 19.500,8.187 C19.500,9.400 19.072,10.543 18.296,11.405 C18.295,11.407 18.293,11.409 18.291,11.411 L11.897,18.326 C11.794,18.437 11.651,18.500 11.500,18.500 ZM5.505,10.674 L11.500,17.158 L17.495,10.674 C18.729,9.301 18.728,7.069 17.493,5.697 L17.396,5.589 C16.814,4.942 16.044,4.586 15.229,4.586 C14.413,4.586 13.644,4.942 13.061,5.589 L11.902,6.878 C11.799,6.991 11.653,7.056 11.500,7.056 C11.347,7.056 11.201,6.991 11.098,6.878 L9.939,5.589 C9.356,4.942 8.587,4.586 7.771,4.586 C6.956,4.586 6.186,4.942 5.604,5.589 L5.507,5.697 C4.272,7.069 4.271,9.301 5.505,10.674 Z" /> </svg>
+                        </button>
+                    </div>
+                </figure>
+                <figure class="productSelection__card"><img src="img/productSelection6.jpg" alt="Mango">
+                    <figcaption class="productSelection__mango">
+                        <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                    <div class="productSelection__cardHover"></div>
+                    <button class="productSelection__cardHoverCart">
+                        <svg class="whiteCart" fill="rgb(255, 255, 255)" width="32" height="29" viewBox="0 0 32 29">
+                            <path d="M31.899,7.565 L26.493,19.977 C26.296,20.410 25.882,20.686 25.409,20.686 L10.554,20.686 C10.021,20.686 9.548,20.331 9.410,19.819 L4.577,2.364 L1.184,2.364 C0.533,2.364 -0.000,1.832 -0.000,1.182 C-0.000,0.532 0.533,-0.001 1.184,-0.001 L5.464,-0.001 C5.997,-0.001 6.471,0.354 6.609,0.866 L11.442,18.322 L24.620,18.322 L28.999,8.274 L14.401,8.274 C13.750,8.274 13.217,7.742 13.217,7.092 C13.217,6.442 13.750,5.910 14.401,5.910 L30.814,5.910 C31.208,5.910 31.583,6.107 31.800,6.442 C32.017,6.777 32.057,7.190 31.899,7.565 ZM9.429,23.641 C10.909,23.641 12.112,24.843 12.112,26.320 C12.112,27.798 10.909,28.999 9.429,28.999 C7.950,28.999 6.747,27.798 6.747,26.320 C6.747,24.843 7.950,23.641 9.429,23.641 ZM26.020,23.641 C27.500,23.542 28.782,24.665 28.881,26.123 C28.920,26.852 28.703,27.542 28.230,28.073 C27.756,28.625 27.105,28.940 26.395,28.999 C26.336,28.999 26.257,28.999 26.198,28.999 C24.797,28.999 23.633,27.896 23.535,26.498 C23.436,25.040 24.541,23.739 26.020,23.641 Z" /> </svg> <span class="productSelection__addToCart">Add to cart</span></button>
+                    <div class="productSelection__hoverIconWrapper">
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 -5 23 22">
+                                <path d="M21.702,7.179 C21.325,6.788 20.714,6.788 20.338,7.179 L18.986,8.582 L18.986,1.001 C18.986,0.448 18.554,-0.000 18.021,-0.000 L8.582,-0.000 C8.050,-0.000 7.618,0.448 7.618,1.001 C7.618,1.553 8.050,2.002 8.582,2.002 L17.057,2.002 L17.057,8.582 L15.705,7.178 C15.328,6.787 14.718,6.787 14.342,7.178 C13.965,7.569 13.965,8.202 14.341,8.594 L17.339,11.705 C17.521,11.894 17.766,11.999 18.021,11.999 C18.278,11.999 18.522,11.893 18.704,11.705 L21.702,8.594 C22.078,8.203 22.078,7.569 21.702,7.179 ZM13.401,9.998 L4.926,9.998 L4.926,3.418 L6.278,4.821 C6.467,5.017 6.713,5.114 6.960,5.114 C7.207,5.114 7.454,5.017 7.642,4.821 C8.019,4.430 8.019,3.797 7.642,3.406 L4.644,0.293 C4.463,0.106 4.218,0.000 3.962,0.000 C3.705,0.000 3.460,0.106 3.279,0.293 L0.282,3.406 C-0.095,3.797 -0.095,4.430 0.282,4.821 C0.659,5.212 1.268,5.212 1.645,4.821 L2.998,3.418 L2.998,10.999 C2.998,11.551 3.429,12.000 3.962,12.000 L13.401,12.000 C13.934,12.000 14.365,11.551 14.365,10.999 C14.365,10.446 13.934,9.998 13.401,9.998 Z" /> </svg>
+                        </button>
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 0 23 22">
+                                <path d="M11.500,18.500 C11.349,18.500 11.206,18.437 11.103,18.326 L4.708,11.411 C4.707,11.409 4.705,11.407 4.704,11.405 C3.927,10.543 3.500,9.400 3.500,8.187 C3.500,6.974 3.927,5.831 4.704,4.969 L4.801,4.861 C5.591,3.983 6.646,3.500 7.771,3.500 C8.897,3.500 9.952,3.983 10.742,4.861 L11.500,5.703 L12.258,4.861 C13.048,3.983 14.103,3.500 15.229,3.500 C16.354,3.500 17.409,3.983 18.199,4.861 L18.296,4.969 C19.072,5.831 19.500,6.974 19.500,8.187 C19.500,9.400 19.072,10.543 18.296,11.405 C18.295,11.407 18.293,11.409 18.291,11.411 L11.897,18.326 C11.794,18.437 11.651,18.500 11.500,18.500 ZM5.505,10.674 L11.500,17.158 L17.495,10.674 C18.729,9.301 18.728,7.069 17.493,5.697 L17.396,5.589 C16.814,4.942 16.044,4.586 15.229,4.586 C14.413,4.586 13.644,4.942 13.061,5.589 L11.902,6.878 C11.799,6.991 11.653,7.056 11.500,7.056 C11.347,7.056 11.201,6.991 11.098,6.878 L9.939,5.589 C9.356,4.942 8.587,4.586 7.771,4.586 C6.956,4.586 6.186,4.942 5.604,5.589 L5.507,5.697 C4.272,7.069 4.271,9.301 5.505,10.674 Z" /> </svg>
+                        </button>
+                    </div>
+                </figure>
+                <figure class="productSelection__card"><img src="img/card6.jpg" alt="Mango">
+                    <figcaption class="productSelection__mango">
+                        <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                    <div class="productSelection__cardHover"></div>
+                    <button class="productSelection__cardHoverCart">
+                        <svg class="whiteCart" fill="rgb(255, 255, 255)" width="32" height="29" viewBox="0 0 32 29">
+                            <path d="M31.899,7.565 L26.493,19.977 C26.296,20.410 25.882,20.686 25.409,20.686 L10.554,20.686 C10.021,20.686 9.548,20.331 9.410,19.819 L4.577,2.364 L1.184,2.364 C0.533,2.364 -0.000,1.832 -0.000,1.182 C-0.000,0.532 0.533,-0.001 1.184,-0.001 L5.464,-0.001 C5.997,-0.001 6.471,0.354 6.609,0.866 L11.442,18.322 L24.620,18.322 L28.999,8.274 L14.401,8.274 C13.750,8.274 13.217,7.742 13.217,7.092 C13.217,6.442 13.750,5.910 14.401,5.910 L30.814,5.910 C31.208,5.910 31.583,6.107 31.800,6.442 C32.017,6.777 32.057,7.190 31.899,7.565 ZM9.429,23.641 C10.909,23.641 12.112,24.843 12.112,26.320 C12.112,27.798 10.909,28.999 9.429,28.999 C7.950,28.999 6.747,27.798 6.747,26.320 C6.747,24.843 7.950,23.641 9.429,23.641 ZM26.020,23.641 C27.500,23.542 28.782,24.665 28.881,26.123 C28.920,26.852 28.703,27.542 28.230,28.073 C27.756,28.625 27.105,28.940 26.395,28.999 C26.336,28.999 26.257,28.999 26.198,28.999 C24.797,28.999 23.633,27.896 23.535,26.498 C23.436,25.040 24.541,23.739 26.020,23.641 Z" /> </svg> <span class="productSelection__addToCart">Add to cart</span></button>
+                    <div class="productSelection__hoverIconWrapper">
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 -5 23 22">
+                                <path d="M21.702,7.179 C21.325,6.788 20.714,6.788 20.338,7.179 L18.986,8.582 L18.986,1.001 C18.986,0.448 18.554,-0.000 18.021,-0.000 L8.582,-0.000 C8.050,-0.000 7.618,0.448 7.618,1.001 C7.618,1.553 8.050,2.002 8.582,2.002 L17.057,2.002 L17.057,8.582 L15.705,7.178 C15.328,6.787 14.718,6.787 14.342,7.178 C13.965,7.569 13.965,8.202 14.341,8.594 L17.339,11.705 C17.521,11.894 17.766,11.999 18.021,11.999 C18.278,11.999 18.522,11.893 18.704,11.705 L21.702,8.594 C22.078,8.203 22.078,7.569 21.702,7.179 ZM13.401,9.998 L4.926,9.998 L4.926,3.418 L6.278,4.821 C6.467,5.017 6.713,5.114 6.960,5.114 C7.207,5.114 7.454,5.017 7.642,4.821 C8.019,4.430 8.019,3.797 7.642,3.406 L4.644,0.293 C4.463,0.106 4.218,0.000 3.962,0.000 C3.705,0.000 3.460,0.106 3.279,0.293 L0.282,3.406 C-0.095,3.797 -0.095,4.430 0.282,4.821 C0.659,5.212 1.268,5.212 1.645,4.821 L2.998,3.418 L2.998,10.999 C2.998,11.551 3.429,12.000 3.962,12.000 L13.401,12.000 C13.934,12.000 14.365,11.551 14.365,10.999 C14.365,10.446 13.934,9.998 13.401,9.998 Z" /> </svg>
+                        </button>
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 0 23 22">
+                                <path d="M11.500,18.500 C11.349,18.500 11.206,18.437 11.103,18.326 L4.708,11.411 C4.707,11.409 4.705,11.407 4.704,11.405 C3.927,10.543 3.500,9.400 3.500,8.187 C3.500,6.974 3.927,5.831 4.704,4.969 L4.801,4.861 C5.591,3.983 6.646,3.500 7.771,3.500 C8.897,3.500 9.952,3.983 10.742,4.861 L11.500,5.703 L12.258,4.861 C13.048,3.983 14.103,3.500 15.229,3.500 C16.354,3.500 17.409,3.983 18.199,4.861 L18.296,4.969 C19.072,5.831 19.500,6.974 19.500,8.187 C19.500,9.400 19.072,10.543 18.296,11.405 C18.295,11.407 18.293,11.409 18.291,11.411 L11.897,18.326 C11.794,18.437 11.651,18.500 11.500,18.500 ZM5.505,10.674 L11.500,17.158 L17.495,10.674 C18.729,9.301 18.728,7.069 17.493,5.697 L17.396,5.589 C16.814,4.942 16.044,4.586 15.229,4.586 C14.413,4.586 13.644,4.942 13.061,5.589 L11.902,6.878 C11.799,6.991 11.653,7.056 11.500,7.056 C11.347,7.056 11.201,6.991 11.098,6.878 L9.939,5.589 C9.356,4.942 8.587,4.586 7.771,4.586 C6.956,4.586 6.186,4.942 5.604,5.589 L5.507,5.697 C4.272,7.069 4.271,9.301 5.505,10.674 Z" /> </svg>
+                        </button>
+                    </div>
+                </figure>
+                <figure class="productSelection__card"><img src="img/productSelection8.jpg" alt="Mango">
+                    <figcaption class="productSelection__mango">
+                        <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                    <div class="productSelection__cardHover"></div>
+                    <button class="productSelection__cardHoverCart">
+                        <svg class="whiteCart" fill="rgb(255, 255, 255)" width="32" height="29" viewBox="0 0 32 29">
+                            <path d="M31.899,7.565 L26.493,19.977 C26.296,20.410 25.882,20.686 25.409,20.686 L10.554,20.686 C10.021,20.686 9.548,20.331 9.410,19.819 L4.577,2.364 L1.184,2.364 C0.533,2.364 -0.000,1.832 -0.000,1.182 C-0.000,0.532 0.533,-0.001 1.184,-0.001 L5.464,-0.001 C5.997,-0.001 6.471,0.354 6.609,0.866 L11.442,18.322 L24.620,18.322 L28.999,8.274 L14.401,8.274 C13.750,8.274 13.217,7.742 13.217,7.092 C13.217,6.442 13.750,5.910 14.401,5.910 L30.814,5.910 C31.208,5.910 31.583,6.107 31.800,6.442 C32.017,6.777 32.057,7.190 31.899,7.565 ZM9.429,23.641 C10.909,23.641 12.112,24.843 12.112,26.320 C12.112,27.798 10.909,28.999 9.429,28.999 C7.950,28.999 6.747,27.798 6.747,26.320 C6.747,24.843 7.950,23.641 9.429,23.641 ZM26.020,23.641 C27.500,23.542 28.782,24.665 28.881,26.123 C28.920,26.852 28.703,27.542 28.230,28.073 C27.756,28.625 27.105,28.940 26.395,28.999 C26.336,28.999 26.257,28.999 26.198,28.999 C24.797,28.999 23.633,27.896 23.535,26.498 C23.436,25.040 24.541,23.739 26.020,23.641 Z" /> </svg> <span class="productSelection__addToCart">Add to cart</span></button>
+                    <div class="productSelection__hoverIconWrapper">
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 -5 23 22">
+                                <path d="M21.702,7.179 C21.325,6.788 20.714,6.788 20.338,7.179 L18.986,8.582 L18.986,1.001 C18.986,0.448 18.554,-0.000 18.021,-0.000 L8.582,-0.000 C8.050,-0.000 7.618,0.448 7.618,1.001 C7.618,1.553 8.050,2.002 8.582,2.002 L17.057,2.002 L17.057,8.582 L15.705,7.178 C15.328,6.787 14.718,6.787 14.342,7.178 C13.965,7.569 13.965,8.202 14.341,8.594 L17.339,11.705 C17.521,11.894 17.766,11.999 18.021,11.999 C18.278,11.999 18.522,11.893 18.704,11.705 L21.702,8.594 C22.078,8.203 22.078,7.569 21.702,7.179 ZM13.401,9.998 L4.926,9.998 L4.926,3.418 L6.278,4.821 C6.467,5.017 6.713,5.114 6.960,5.114 C7.207,5.114 7.454,5.017 7.642,4.821 C8.019,4.430 8.019,3.797 7.642,3.406 L4.644,0.293 C4.463,0.106 4.218,0.000 3.962,0.000 C3.705,0.000 3.460,0.106 3.279,0.293 L0.282,3.406 C-0.095,3.797 -0.095,4.430 0.282,4.821 C0.659,5.212 1.268,5.212 1.645,4.821 L2.998,3.418 L2.998,10.999 C2.998,11.551 3.429,12.000 3.962,12.000 L13.401,12.000 C13.934,12.000 14.365,11.551 14.365,10.999 C14.365,10.446 13.934,9.998 13.401,9.998 Z" /> </svg>
+                        </button>
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 0 23 22">
+                                <path d="M11.500,18.500 C11.349,18.500 11.206,18.437 11.103,18.326 L4.708,11.411 C4.707,11.409 4.705,11.407 4.704,11.405 C3.927,10.543 3.500,9.400 3.500,8.187 C3.500,6.974 3.927,5.831 4.704,4.969 L4.801,4.861 C5.591,3.983 6.646,3.500 7.771,3.500 C8.897,3.500 9.952,3.983 10.742,4.861 L11.500,5.703 L12.258,4.861 C13.048,3.983 14.103,3.500 15.229,3.500 C16.354,3.500 17.409,3.983 18.199,4.861 L18.296,4.969 C19.072,5.831 19.500,6.974 19.500,8.187 C19.500,9.400 19.072,10.543 18.296,11.405 C18.295,11.407 18.293,11.409 18.291,11.411 L11.897,18.326 C11.794,18.437 11.651,18.500 11.500,18.500 ZM5.505,10.674 L11.500,17.158 L17.495,10.674 C18.729,9.301 18.728,7.069 17.493,5.697 L17.396,5.589 C16.814,4.942 16.044,4.586 15.229,4.586 C14.413,4.586 13.644,4.942 13.061,5.589 L11.902,6.878 C11.799,6.991 11.653,7.056 11.500,7.056 C11.347,7.056 11.201,6.991 11.098,6.878 L9.939,5.589 C9.356,4.942 8.587,4.586 7.771,4.586 C6.956,4.586 6.186,4.942 5.604,5.589 L5.507,5.697 C4.272,7.069 4.271,9.301 5.505,10.674 Z" /> </svg>
+                        </button>
+                    </div>
+                </figure>
+                <figure class="productSelection__card"><img src="img/productSelection9.jpg" alt="Mango">
+                    <figcaption class="productSelection__mango">
+                        <h3 class="mango-top">MANGO PEOPLE T-SHIRT</h3> <span class="mango-down">$52.00</span></figcaption>
+                    <div class="productSelection__cardHover"></div>
+                    <button class="productSelection__cardHoverCart">
+                        <svg class="whiteCart" fill="rgb(255, 255, 255)" width="32" height="29" viewBox="0 0 32 29">
+                            <path d="M31.899,7.565 L26.493,19.977 C26.296,20.410 25.882,20.686 25.409,20.686 L10.554,20.686 C10.021,20.686 9.548,20.331 9.410,19.819 L4.577,2.364 L1.184,2.364 C0.533,2.364 -0.000,1.832 -0.000,1.182 C-0.000,0.532 0.533,-0.001 1.184,-0.001 L5.464,-0.001 C5.997,-0.001 6.471,0.354 6.609,0.866 L11.442,18.322 L24.620,18.322 L28.999,8.274 L14.401,8.274 C13.750,8.274 13.217,7.742 13.217,7.092 C13.217,6.442 13.750,5.910 14.401,5.910 L30.814,5.910 C31.208,5.910 31.583,6.107 31.800,6.442 C32.017,6.777 32.057,7.190 31.899,7.565 ZM9.429,23.641 C10.909,23.641 12.112,24.843 12.112,26.320 C12.112,27.798 10.909,28.999 9.429,28.999 C7.950,28.999 6.747,27.798 6.747,26.320 C6.747,24.843 7.950,23.641 9.429,23.641 ZM26.020,23.641 C27.500,23.542 28.782,24.665 28.881,26.123 C28.920,26.852 28.703,27.542 28.230,28.073 C27.756,28.625 27.105,28.940 26.395,28.999 C26.336,28.999 26.257,28.999 26.198,28.999 C24.797,28.999 23.633,27.896 23.535,26.498 C23.436,25.040 24.541,23.739 26.020,23.641 Z" /> </svg> <span class="productSelection__addToCart">Add to cart</span></button>
+                    <div class="productSelection__hoverIconWrapper">
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 -5 23 22">
+                                <path d="M21.702,7.179 C21.325,6.788 20.714,6.788 20.338,7.179 L18.986,8.582 L18.986,1.001 C18.986,0.448 18.554,-0.000 18.021,-0.000 L8.582,-0.000 C8.050,-0.000 7.618,0.448 7.618,1.001 C7.618,1.553 8.050,2.002 8.582,2.002 L17.057,2.002 L17.057,8.582 L15.705,7.178 C15.328,6.787 14.718,6.787 14.342,7.178 C13.965,7.569 13.965,8.202 14.341,8.594 L17.339,11.705 C17.521,11.894 17.766,11.999 18.021,11.999 C18.278,11.999 18.522,11.893 18.704,11.705 L21.702,8.594 C22.078,8.203 22.078,7.569 21.702,7.179 ZM13.401,9.998 L4.926,9.998 L4.926,3.418 L6.278,4.821 C6.467,5.017 6.713,5.114 6.960,5.114 C7.207,5.114 7.454,5.017 7.642,4.821 C8.019,4.430 8.019,3.797 7.642,3.406 L4.644,0.293 C4.463,0.106 4.218,0.000 3.962,0.000 C3.705,0.000 3.460,0.106 3.279,0.293 L0.282,3.406 C-0.095,3.797 -0.095,4.430 0.282,4.821 C0.659,5.212 1.268,5.212 1.645,4.821 L2.998,3.418 L2.998,10.999 C2.998,11.551 3.429,12.000 3.962,12.000 L13.401,12.000 C13.934,12.000 14.365,11.551 14.365,10.999 C14.365,10.446 13.934,9.998 13.401,9.998 Z" /> </svg>
+                        </button>
+                        <button class="productSelection__cardHoverIcon" type="submit">
+                            <svg fill="rgb(255, 255, 255)" width="23px" height="22px" viewBox="0 0 23 22">
+                                <path d="M11.500,18.500 C11.349,18.500 11.206,18.437 11.103,18.326 L4.708,11.411 C4.707,11.409 4.705,11.407 4.704,11.405 C3.927,10.543 3.500,9.400 3.500,8.187 C3.500,6.974 3.927,5.831 4.704,4.969 L4.801,4.861 C5.591,3.983 6.646,3.500 7.771,3.500 C8.897,3.500 9.952,3.983 10.742,4.861 L11.500,5.703 L12.258,4.861 C13.048,3.983 14.103,3.500 15.229,3.500 C16.354,3.500 17.409,3.983 18.199,4.861 L18.296,4.969 C19.072,5.831 19.500,6.974 19.500,8.187 C19.500,9.400 19.072,10.543 18.296,11.405 C18.295,11.407 18.293,11.409 18.291,11.411 L11.897,18.326 C11.794,18.437 11.651,18.500 11.500,18.500 ZM5.505,10.674 L11.500,17.158 L17.495,10.674 C18.729,9.301 18.728,7.069 17.493,5.697 L17.396,5.589 C16.814,4.942 16.044,4.586 15.229,4.586 C14.413,4.586 13.644,4.942 13.061,5.589 L11.902,6.878 C11.799,6.991 11.653,7.056 11.500,7.056 C11.347,7.056 11.201,6.991 11.098,6.878 L9.939,5.589 C9.356,4.942 8.587,4.586 7.771,4.586 C6.956,4.586 6.186,4.942 5.604,5.589 L5.507,5.697 C4.272,7.069 4.271,9.301 5.505,10.674 Z" /> </svg>
+                        </button>
+                    </div>
+                </figure>
+            </div>
+            <div class="productSelection__nav">
+                <div class="productSelection__page"> <a href="#" class="productSelection__pagination"><i class="fas fa-chevron-left"></i></a> <a href="#" class="productSelection__pagination productSelection__pagination_active">1</a> <a href="#" class="productSelection__pagination">2</a> <a href="#" class="productSelection__pagination">3</a> <a href="#" class="productSelection__pagination">4</a> <a href="#" class="productSelection__pagination">5</a> <a href="#" class="productSelection__pagination">6</a> <a href="#" class="productSelection__pagination">.....</a> <a href="#" class="productSelection__pagination">20</a> <a href="#" class="productSelection__pagination productSelection__pagination_active"><i class="fas fa-chevron-right"></i></a> </div>
+                <button class="productSelection__paginationButton" type="submit">View All</button>
+            </div>
+        </div>
+    </section>
+    <section class="shopInfo">
+        <div class="shopInfo__wrapper container"> <img class="shopInfo-pic" src="img/Forma1.svg" alt="Picture"> <img class="shopInfo-pic" src="img/Forma2.svg" alt="Picture"> <img class="shopInfo-pic" src="img/Forma3.svg" alt="Picture">
+            <div class="shopInfo__header"> <span class="shopInfo__headerDelivery shopInfo__header_font">Free Delivery</span> <span class="shopInfo__headerSales shopInfo__header_font">Sales & discounts</span> <span class="shopInfo__headerQuality shopInfo__header_font">Quality assurance</span> </div>
+            <article class="shopInfo__info"> <span class="shopInfo__text shopInfo__text_font">Worldwide delivery on all. Authorit atively morph next-generation innovation with extensive models.</span> <span class="shopInfo__text shopInfo__text_font">Worldwide delivery on all. Authorit atively morph next-generation innovation with extensive models.</span> <span class="shopInfo__text shopInfo__text_font">Worldwide delivery on all. Authorit atively morph next-generation innovation with extensive models.</span> </article>
+        </div>
+    </section>
+    <section class="communication">
+        <div class="communication__wrapper container">
+            <article class="communication__quot"> <img class="communication__quotBinBurhan" src="img/Face1.jpg" alt="BinBurhan">
+                <p class="communication__quotSpeach">«Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi, a&nbsp;pulvinar purus condimentum&nbsp;a. Aliquam condimentum mattis neque sed pretium”</p> <span class="communication__quotName">Bin Burhan</span><span class="communication__quotCity">Dhaka, Bd</span>
+                <div class="communication__pagination">
+                    <a href="#" class="communication__paginationLine"></a>
+                    <a href="#" class="communication__paginationLine communication__paginationLineActive"></a>
+                    <a href="#" class="communication__paginationLine"></a>
+                </div>
+            </article>
+            <article class="communication__subscribeWrapper"> <h3 class="communication__subscribe">Subscribe</h3> <span class="communication__newLetter">FOR OUR NEWLETTER AND PROMOTION</span>
+                <form class="communication__form" action="#">
+                    <input class="communication__enterEmail" type="text" placeholder=" Enter Your Email"><input class="communication__button" type="submit" value="Subscribe"> </form>
+                <!--ВНИМАНИЕ! ДЕРЖИ ДВА ИНПУТА ВМЕСТЕ БЕЗ ПЕРЕНОСА НА ДРУГУЮ СТРОКУ, ЧТОБЫ НЕ БЫЛО РАЗРЫВА МЕЖДУ ФОРМАМИ!!!-->
+            </article>
+        </div>
+    </section>
+    <footer class="footerUp container">
+        <div class="footerUp__left">
+            <a class="headerFirst__logo" href="#"> <img src="img/Logo.png" alt="Logo"> <span class="headerFirst__brand">BRAN<span class="headerFirst__branD">D</span></span>
+            </a>
+            <p class="footerUp__info">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go&nbsp;forward benefits. Intrinsicly syndicate an&nbsp;expanded array of&nbsp;processes and cross-unit partnerships.</p>
+            <p class="footerUp__info">Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+        </div>
+        <div class="footerUp__right">
+            <div class="footerUp__menu"> <span class="footerUp__header">COMPANY</span> <a href="#" class="footerUp__point">Home</a> <a href="" class="footerUp__point">Shop</a> <a href="#" class="footerUp__point">About</a> <a href="#" class="footerUp__point">How It Works</a> <a href="#" class="footerUp__point">Contact</a> </div>
+            <div class="footerUp__menu"> <span class="footerUp__header">INFORMATION</span> <a href="#" class="footerUp__point">Tearms & Condition</a> <a href="#" class="footerUp__point">Privacy Policy</a> <a href="#" class="footerUp__point">How to Buy</a> <a href="#" class="footerUp__point">How to Sell</a> <a href="#" class="footerUp__point">Promotion</a> </div>
+            <div class="footerUp__menu"> <span class="footerUp__header">SHOP CATEGORY</span> <a href="#" class="footerUp__point">Men</a> <a href="#" class="footerUp__point">Women</a> <a href="#" class="footerUp__point">Child</a> <a href="#" class="footerUp__point">Apparel</a> <a href="#" class="footerUp__point">Browse All</a> </div>
+        </div>
+    </footer>
+    <footer class="footerDown"> <span class="footerDown__copyRight">&copy; 2017 Brand All Rights Reserved</span>
+        <div class="footerDown__socials"> <i class="footerDown__socialItem fab fa-facebook-f"></i> <i class="footerDown__socialItem fab fa-twitter"></i> <i class="footerDown__socialItem fab fa-instagram"></i> <i class="footerDown__socialItem fab fa-pinterest-p"></i> <i class="footerDown__socialItem fab fa-google-plus-g"></i> </div>
+    </footer>
+</body>
+
+</html>
