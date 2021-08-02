@@ -1,0 +1,332 @@
+.MoschinoOffer_main {
+    display: block;
+    margin: 0 auto;
+}
+
+.MoschinoOffer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.MoschinoOffer__arrowLeftWrap {
+    position: relative;
+    width: 1.9em;
+    height: 1.9em;
+    background-color: #d8d8d8;
+}
+
+.MoschinoOffer__arrowRightWrap {
+    position: relative;
+    width: 1.9em;
+    height: 1.9em;
+    background-color: #d8d8d8;
+}
+
+.MoschinoOffer__arrowLeft {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.MoschinoOffer__arrowRight {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.productDescription {
+    position: relative;
+    top: -5.5em;
+    z-index: 2;
+    border: 1px solid rgb(234, 234, 234);
+    background-color: #ffffff;
+}
+
+.productDescription_h2 {
+    dispaly: inline;
+    margin-top: 5em;
+    padding-bottom: 1em;
+    position: relative;
+}
+
+.productDescription_h2:before {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #eaeaea;
+    position: absolute;
+    bottom: 0;
+    left: 35.5em;
+    right: 35.5em;
+}
+
+.productDescription_h2:after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: rgb(239, 91, 112);
+    position: absolute;
+    bottom: -1px;
+    left: 38.5em;
+    right: 38.5em;
+}
+
+.font14BoldSpecial {
+    font-size: 14px;
+    color: rgb(241, 109, 127);
+    font-weight: 700;
+    text-align: center;
+}
+
+.productDescription_h1 {
+    margin-top: 1em;
+    margin-bottom: 3.5em;
+}
+
+.font18Bold {
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(77, 77, 77);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.productDescription_text {
+    width: 47em;
+    margin: 0 auto 2em auto;
+}
+
+.font14Dark {
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+    line-height: 1.714;
+    text-align: center;
+}
+
+.productDescription_details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5em;
+}
+
+.productDescription_details_mrg {
+    margin-right: 3em;
+}
+
+.font14Light {
+    font-size: 14px;
+    color: rgb(185, 185, 185);
+    font-weight: 700;
+}
+
+.font14Dark {
+    font-size: 14px;
+    color: #2f2f2f;
+    font-weight: 700;
+}
+
+.productDescription_price {
+    display: block;
+    text-align: center;
+    padding-bottom: 1.7em;
+    margin-bottom: 2.5em;
+}
+
+.font24Special {
+    position: relative;
+    font-size: 24px;
+    color: rgb(239, 91, 112);
+    font-weight: 700;
+}
+
+.productDescription_price:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 1px;
+    background: rgb(234, 234, 234);
+    bottom: 0;
+    left: 10em;
+    right: 10em;
+}
+
+.productDescription_filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.productDescription_filterHeader {
+    margin-bottom: 1em;
+}
+
+.productDescription_filterHeader_font {
+    font-size: 14px;
+    color: rgb(47, 47, 47);
+    font-weight: 900;
+}
+
+.productDescription_filterHeader,
+.productDescription_filterButton {
+    display: block;
+}
+
+.productDescription_filterButton {
+    font-size: 13px;
+    width: 11em;
+    color: rgb(188, 188, 188);
+    line-height: 1.846;
+    text-align: left;
+    background-color: white;
+    border: 1px solid rgb(234, 234, 234);
+}
+
+.productDescription_filterItem:not(:last-of-type) {
+    margin-right: 4em;
+}
+
+.productDescription_filterButton::after {
+    font-family: 'FontAwesome';
+    content: '\f107';
+    margin-left: 7em;
+}
+
+.productDescription_filterButton_shortText::after {
+    margin-left: 8.5em;
+}
+
+.productDescription_addButton {
+    display: block;
+    position: relative;
+    font-family: "Lato";
+    color: rgb(239, 91, 112);
+    font-weight: 700;
+    text-align: center;
+    width: 34em;
+    margin-bottom: 20em;
+    margin: 0 auto;
+    padding-top: 1.3em;
+    padding-bottom: 1em;
+    border-color: rgb(239, 91, 112);
+    background-color: white;
+    margin-bottom: 7.5em;
+}
+
+.productDescription__cartSvg {
+    position: absolute;
+    left: 12em;
+}
+
+.productDescription_addButton:hover {
+    color: white;
+    background-color: rgb(239, 91, 112);
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.productDescription_addButton:focus {
+    outline: 1px solid rgb(239, 91, 112);
+}
+
+.productDescription__extraOfferHeading {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(77, 77, 77);
+    text-transform: uppercase;
+    margin: 0 auto 2.8em auto;
+}
+
+.productDescription__extraOfferContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productDescription__extraOfferTitle,
+.productDescription__extraOfferPrice {
+    display: block;
+}
+
+.fontExtraOffer14 {
+    font-size: 14px;
+    color: rgb(111, 110, 110);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.fontExtraOfferSpecial {
+    font-size: 16px;
+    color: rgb(241, 109, 127);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.productDescription__extraOfferTitle {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    margin-left: 1em;
+}
+
+.productDescription__extraOfferPrice {
+    margin-left: 0.8em;
+    margin-bottom: 5.5em;
+}
+
+.productDescription__extraOfferLook {
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .productDescription__extraOfferContent {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .productDescription__extraOfferContent {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .productDescription__extraOfferContent {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: auto;
+        padding: 0 15px;
+    }
+    .productDescription__extraOfferContent {
+        display: block;
+    }
+}

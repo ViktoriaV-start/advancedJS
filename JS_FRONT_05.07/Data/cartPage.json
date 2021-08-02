@@ -1,0 +1,31 @@
+{
+    "amount": 900,
+    "countGoods": 6,
+    "contents": [
+      {
+        "id_product": 9,
+        "product_name": "MANGO PEOPLE T-SHIRT",
+        "size": "XLL",
+        "color": "Red",
+        "price": 150,
+        "quantity": 2
+      },
+      {
+        "id_product": 10,
+        "product_name": "MANGO PEOPLE T-SHIRT",
+        "size": "XLL",
+        "color": "Red",
+        "price": 150,
+        "quantity": 2
+      },
+      {
+        "id_product": 11,
+        "product_name": "MANGO PEOPLE T-SHIRT",
+        "size": "XLL",
+        "color": "Red",
+        "price": 150,
+        "quantity": 2
+      }
+    ]
+  }
+  
