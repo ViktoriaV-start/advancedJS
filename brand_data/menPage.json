@@ -44,10 +44,9 @@
       {
         "id_product": 6,
         "product_name": "MANGO PEOPLE Linen Blazer",
-        "size": "XXL",
+        "size": "XL",
         "color": "Grey",
-        "price": 52,
-        "quantity": 1
+        "price": 52
       },
       {
         "id_product": 11,

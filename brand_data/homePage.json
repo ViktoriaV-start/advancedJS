@@ -18,47 +18,41 @@
       "product_name": "MANGO PEOPLE Linen Blazer",
       "size": "XL",
       "color": "Grey",
-      "price": 52,
-      "quantity": 1
+      "price": 52
     },
     {
       "id_product": 5,
       "product_name": "MANGO PEOPLE Sleeveless Top",
       "size": "M",
       "color": "Black and white",
-      "price": 52,
-      "quantity": 1
+      "price": 52
     },
     {
       "id_product": 4,
       "product_name": "MANGO PEOPLE Top",
       "size": "M",
       "color": "Multicolor",
-      "price": 52,
-      "quantity": 1
+      "price": 52
     },
     {
       "id_product": 3,
       "product_name": "MANGO PEOPLE Jacket",
       "size": "L",
       "color": "Dark blue",
-      "price": 52,
-      "quantity": 1
+      "price": 52
     },
     {
       "id_product": 2,
       "product_name": "MANGO PEOPLE Sleeveless Top",
       "size": "S",
       "color": "Red",
-      "price": 52,
-      "quantity": 1
+      "price": 52
     },
     {
       "id_product": 1,
       "product_name": "MANGO PEOPLE T-SHIRT",
       "size": "XL",
       "color": "White",
-      "price": 52,
-      "quantity": 1
+      "price": 52
     }
 ]
