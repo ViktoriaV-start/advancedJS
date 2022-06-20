@@ -4,48 +4,42 @@
         "product_name": "MANGO PEOPLE T-SHIRT",
         "size": "XXL",
         "color": "Red",
-        "price": 150,
-        "quantity": 2
+        "price": 150
       },
       {
         "id_product": 10,
         "product_name": "MANGO PEOPLE T-SHIRT",
         "size": "L",
         "color": "Red",
-        "price": 150,
-        "quantity": 2
+        "price": 150
       },
       {
         "id_product": 3,
         "product_name": "MANGO PEOPLE Jacket",
         "size": "L",
         "color": "Dark blue",
-        "price": 52,
-        "quantity": 1
+        "price": 52
       },
       {
         "id_product": 12,
         "product_name": "MANGO PEOPLE T-SHIRT",
         "size": "XL",
         "color": "Grey",
-        "price": 52,
-        "quantity": 1
+        "price": 52
       },
       {
         "id_product": 8,
         "product_name": "MANGO PEOPLE SHORTS",
         "size": "XL",
         "color": "Blue",
-        "price": 52,
-        "quantity": 1
+        "price": 52
       },
       {
         "id_product": 14,
         "product_name": "MANGO PEOPLE JACKET",
         "size": "XL",
         "color": "Blue",
-        "price": 52,
-        "quantity": 1
+        "price": 52
       },
       {
         "id_product": 6,
@@ -60,15 +54,13 @@
         "product_name": "MANGO PEOPLE T-SHIRT",
         "size": "S",
         "color": "Red",
-        "price": 150,
-        "quantity": 1
+        "price": 150
       },
       {
         "id_product": 15,
         "product_name": "MANGO PEOPLE T-SHIRT",
         "size": "M",
         "color": "Blue",
-        "price": 150,
-        "quantity": 1
+        "price": 150
       }
 ]
